@@ -1,0 +1,3342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🕉️ Vinayaka Chavithi 2025 🕉️ Vellampalli Village Celebration</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <div id="announcement-banner">
+        <marquee behavior="scroll" direction="left" scrollamount="6">
+            📣 Mark the next sunday for going to maddipadu to see the best ganapathi vigraham |
+            🍲 Mark the next sunday for collecting the base of the vigraham |
+            🙏 Mark the next sunday for meeting |
+            🚩 Meeting starts at 10:30am 
+        </marquee>
+    </div>
+<style>
+    #announcement-banner {
+  background-color: #fff3e0;
+  color: #e65100;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  border-bottom: 2px solid #ff9800;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        body {
+            font-family: 'Roboto', Arial, sans-serif;
+            line-height: 1.5;
+            color: #333;
+            background: linear-gradient(135deg, #fff8e1 0%, #ffecb3 100%);
+            font-size: 16px;
+        }
+        
+        /* Header and Navigation */
+        .header-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #ff6f00;
+            color: white;
+            padding: 10px 20px;
+            flex-wrap: wrap;
+        }
+
+        .site-title {
+            font-size: 1.5rem;
+            margin: 0;
+        }
+
+        .dropdown-nav {
+            font-size: 1rem;
+            padding: 6px 10px;
+            border-radius: 6px;
+            border: none;
+            background-color: white;
+            color: #ff6f00;
+            font-weight: 600;
+            cursor: pointer;
+            outline: none;
+        }
+        
+        .logo {
+            font-size: 1.2rem;
+            font-weight: 700;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .nav-menu {
+            display: flex;
+            list-style: none;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .nav-menu a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            padding: 0.4rem 0.8rem;
+            border-radius: 25px;
+            font-size: 0.9rem;
+        }
+
+        .nav-menu a:hover {
+            background: rgba(255,255,255,0.2);
+            transform: translateY(-2px);
+        }
+
+        /* Admin Login Button Styles */
+        .admin-login-btn {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 25px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 14px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+
+        .admin-login-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+        }
+
+        .admin-login-btn.login {
+            background: linear-gradient(135deg, #2196F3, #1976D2);
+            color: white;
+        }
+
+        .admin-login-btn.logout {
+            background: linear-gradient(135deg, #f44336, #d32f2f);
+            color: white;
+        }
+
+        /* Main Content */
+        .main-content {
+            margin-top: 70px;
+            padding: 1rem 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #ff8f00 0%, #ff6f00 50%, #ff3d00 100%);
+            color: white;
+            text-align: center;
+            padding: 2rem 1rem;
+            margin-bottom: 2rem;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(255,111,0,0.3);
+            position: relative;
+        }
+
+        .hero h1 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            animation: fadeInUp 1s ease;
+        }
+
+        .hero p {
+            font-size: 1rem;
+            margin-bottom: 2rem;
+            animation: fadeInUp 1s ease 0.2s both;
+        }
+
+        .hero-subtitle {
+            font-size: 1.1rem;
+            font-weight: 500;
+            animation: fadeInUp 1s ease 0.4s both;
+        }
+
+        /* Countdown Timer */
+        .countdown-container {
+            background: rgba(255,255,255,0.1);
+            padding: 1.5rem;
+            border-radius: 15px;
+            margin-top: 2rem;
+            backdrop-filter: blur(10px);
+        }
+
+        .countdown-title {
+            font-size: 1.1rem;
+            margin-bottom: 1rem;
+            font-weight: 600;
+        }
+
+        .countdown {
+            display: flex;
+            justify-content: center;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+        }
+
+        .countdown-item {
+            background: rgba(255,255,255,0.2);
+            padding: 0.8rem;
+            border-radius: 10px;
+            text-align: center;
+            min-width: 70px;
+        }
+
+        .countdown-number {
+            font-size: 1.5rem;
+            font-weight: 700;
+            display: block;
+        }
+
+        .countdown-label {
+            font-size: 0.8rem;
+            opacity: 0.9;
+        }
+
+        /* Sections */
+        .section {
+            background: white;
+            margin: 1.5rem 0;
+            padding: 2rem 1rem;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            border-left: 5px solid #ff8f00;
+        }
+
+        .section h2 {
+            color: #ff6f00;
+            font-size: 1.8rem;
+            margin-bottom: 1.5rem;
+            text-align: center;
+            position: relative;
+        }
+
+        .section h2::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 3px;
+            background: linear-gradient(90deg, #ff8f00, #ff3d00);
+            border-radius: 2px;
+        }
+
+        /* Pooja Booking System Styles */
+        .booking-section {
+            background: white;
+            margin: 2rem 0;
+            padding: 2rem;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(255,111,0,0.1);
+            border-left: 5px solid #ff6f00;
+        }
+
+        .booking-header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .booking-header h2 {
+            color: #ff6f00;
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .booking-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 2rem;
+        }
+
+        .booking-form {
+            background: linear-gradient(135deg, #fff8e1 0%, #ffe0b2 100%);
+            padding: 2rem;
+            border-radius: 15px;
+            border: 2px solid #ff8f00;
+        }
+
+        .booking-form h3 {
+            color: #e65100;
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            color: #e65100;
+            font-weight: 600;
+            font-size: 0.9rem;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .form-group input,
+        .form-group select {
+            width: 100%;
+            padding: 12px 16px;
+            border: 2px solid #ffcc02;
+            border-radius: 8px;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+            background: white;
+        }
+
+        .form-group input:focus,
+        .form-group select:focus {
+            outline: none;
+            border-color: #ff6f00;
+            box-shadow: 0 0 0 3px rgba(255,111,0,0.1);
+        }
+
+        .submit-btn {
+            background: linear-gradient(135deg, #ff6f00, #ff8f00);
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 25px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            box-shadow: 0 4px 15px rgba(255,111,0,0.3);
+        }
+
+        .submit-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(255,111,0,0.4);
+        }
+
+        .booking-info {
+            background: #fff3e0;
+            padding: 1.5rem;
+            border-radius: 10px;
+            border: 2px solid #ffcc02;
+            margin-top: 1.5rem;
+        }
+
+        .booking-info h4 {
+            color: #e65100;
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+        }
+
+        .booking-info p {
+            color: #666;
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .bookings-list {
+            background: #f9f9f9;
+            border-radius: 15px;
+            padding: 2rem;
+            border: 2px solid #ff8f00;
+        }
+
+        .bookings-list h3 {
+            color: #e65100;
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .stat-card {
+            background: linear-gradient(135deg, #fff8e1, #ffe0b2);
+            padding: 1.5rem;
+            border-radius: 10px;
+            text-align: center;
+            border: 2px solid #ffcc02;
+        }
+
+        .stat-number {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #e65100;
+            display: block;
+        }
+
+        .stat-label {
+            font-size: 0.9rem;
+            color: #666;
+            margin-top: 0.5rem;
+        }
+
+        .bookings-container {
+            max-height: 400px;
+            overflow-y: auto;
+            padding-right: 10px;
+        }
+
+        .booking-card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 12px;
+            margin-bottom: 1rem;
+            border-left: 4px solid #ff6f00;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            transition: transform 0.2s ease;
+        }
+
+        .booking-card:hover {
+            transform: translateX(5px);
+        }
+
+        .booking-header-card {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 1rem;
+        }
+
+        .booking-name {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #333;
+        }
+
+        .booking-status {
+            background: #e8f5e8;
+            color: #2e7d32;
+            padding: 4px 12px;
+            border-radius: 15px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+
+        .booking-details {
+            display: grid;
+            gap: 0.5rem;
+            font-size: 0.9rem;
+            color: #666;
+        }
+
+        .booking-detail {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .booking-date-special {
+            color: #ff6f00;
+            font-weight: 600;
+            font-size: 0.8rem;
+            margin-top: 0.5rem;
+        }
+
+        .booking-donation {
+            color: #2e7d32;
+            font-weight: 600;
+        }
+
+        .empty-bookings {
+            text-align: center;
+            padding: 3rem 1rem;
+            color: #666;
+        }
+
+        .empty-bookings svg {
+            margin-bottom: 1rem;
+            opacity: 0.5;
+        }
+
+        .date-summary {
+            margin-top: 2rem;
+        }
+
+        .date-summary h4 {
+            color: #e65100;
+            margin-bottom: 1rem;
+            font-size: 1.2rem;
+        }
+
+        .date-summary-grid {
+            display: grid;
+            gap: 0.75rem;
+        }
+
+        .date-summary-card {
+            background: white;
+            padding: 1rem;
+            border-radius: 8px;
+            border: 1px solid #e0e0e0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .date-summary-card.has-bookings {
+            background: #fff8e1;
+            border-color: #ffcc02;
+        }
+
+        .date-info {
+            flex: 1;
+        }
+
+        .date-name {
+            font-weight: 600;
+            color: #333;
+            font-size: 0.9rem;
+        }
+
+        .date-label {
+            font-size: 0.8rem;
+            color: #666;
+            margin-top: 0.2rem;
+        }
+
+        .date-stats {
+            text-align: right;
+        }
+
+        .date-bookings {
+            font-weight: 600;
+            color: #ff6f00;
+            font-size: 0.9rem;
+        }
+
+        .date-donations {
+            font-size: 0.8rem;
+            color: #2e7d32;
+            margin-top: 0.2rem;
+        }
+
+        /* Attendance Management Styles */
+        .attendance-section {
+            background: white;
+            margin: 2rem 0;
+            padding: 2rem;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(255,111,0,0.1);
+            border-left: 5px solid #ff6f00;
+            max-width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .attendance-header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .attendance-header h2 {
+            color: #ff6f00;
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .attendance-date {
+            color: #666;
+            font-size: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .attendance-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 2rem;
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .attendance-table th {
+            background: linear-gradient(135deg, #ff8f00, #ff6f00);
+            color: white;
+            padding: 15px 12px;
+            text-align: left;
+            font-weight: 600;
+            font-size: 14px;
+        }
+
+        .attendance-table th:first-child {
+            text-align: center;
+            width: 60px;
+        }
+
+        .attendance-table th:nth-child(3),
+        .attendance-table th:nth-child(4) {
+            text-align: center;
+        }
+
+        .attendance-table td {
+            padding: 15px 12px;
+            border-bottom: 1px solid #f0f0f0;
+            font-size: 14px;
+        }
+
+        .attendance-table tr:hover {
+            background: #fff8f0;
+        }
+
+        .attendance-table tr:last-child td {
+            border-bottom: none;
+        }
+
+        .member-name {
+            font-weight: 500;
+            color: #333;
+        }
+
+        .member-phone {
+            color: #666;
+            font-size: 12px;
+            margin-top: 2px;
+        }
+
+        .status-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+        .status-attended {
+            background: #e8f5e8;
+            color: #2e7d32;
+        }
+
+        .status-absent {
+            background: #ffebee;
+            color: #c62828;
+        }
+
+        .status-pending {
+            background: #fff3e0;
+            color: #f57c00;
+        }
+
+        .action-buttons {
+            display: flex;
+            gap: 8px;
+            justify-content: center;
+        }
+
+        .attendance-btn {
+            padding: 8px 16px;
+            border: none;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .attendance-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+        }
+
+        .attendance-btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+            transform: none;
+            box-shadow: none;
+        }
+
+        .btn-attended {
+            background: linear-gradient(135deg, #4caf50, #388e3c);
+            color: white;
+        }
+
+        .btn-absent {
+            background: linear-gradient(135deg, #f44336, #d32f2f);
+            color: white;
+        }
+
+        .attendance-summary {
+            background: linear-gradient(135deg, #fff3e0, #ffe0b2);
+            padding: 20px;
+            border-radius: 15px;
+            border: 2px solid #ff8f00;
+        }
+
+        .summary-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px;
+            text-align: center;
+        }
+
+        .summary-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .summary-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .summary-icon.attended {
+            background: #e8f5e8;
+            color: #2e7d32;
+        }
+
+        .summary-icon.absent {
+            background: #ffebee;
+            color: #c62828;
+        }
+
+        .summary-icon.pending {
+            background: #fff3e0;
+            color: #f57c00;
+        }
+
+        .summary-count {
+            font-size: 24px;
+            font-weight: 700;
+            color: #333;
+        }
+
+        .summary-label {
+            font-size: 14px;
+            color: #666;
+            font-weight: 500;
+        }
+
+        .admin-instructions {
+            background: #e3f2fd;
+            border: 2px solid #2196f3;
+            border-radius: 15px;
+            padding: 2rem;
+            text-align: center;
+            margin: 2rem 0;
+        }
+
+        .admin-instructions h3 {
+            color: #1976d2;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+
+        .admin-instructions p {
+            color: #1565c0;
+            margin-bottom: 1rem;
+            line-height: 1.6;
+        }
+
+        .features-list {
+            background: #f3e5f5;
+            padding: 1rem;
+            border-radius: 10px;
+            margin-top: 1rem;
+        }
+
+        .features-list ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .features-list li {
+            padding: 5px 0;
+            color: #4a148c;
+            font-weight: 500;
+        }
+
+        .features-list li::before {
+            content: "✓ ";
+            color: #4caf50;
+            font-weight: bold;
+            margin-right: 8px;
+        }
+
+        /* Event Info Styles */
+        .event-dates {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1rem;
+            margin: 1.5rem 0;
+        }
+
+        .date-card {
+            background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%);
+            padding: 1rem;
+            border-radius: 12px;
+            text-align: center;
+            border: 2px solid #ff8f00;
+            transition: transform 0.3s ease;
+        }
+
+        .date-card:hover {
+            transform: translateY(-2px);
+        }
+
+        .date-card.special {
+            background: linear-gradient(135deg, #ff8f00 0%, #ff6f00 100%);
+            color: white;
+            box-shadow: 0 8px 25px rgba(255,111,0,0.4);
+        }
+
+        .date-card h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .date-card .day {
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+
+        .date-card .description {
+            font-size: 0.8rem;
+            margin-top: 0.5rem;
+            font-weight: 500;
+        }
+
+        .activities {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1rem;
+            margin: 1.5rem 0;
+        }
+
+        .activity-card {
+            background: #fff8e1;
+            padding: 1rem;
+            border-radius: 10px;
+            text-align: center;
+            border: 2px solid #ffcc02;
+        }
+
+        .activity-card h4 {
+            color: #e65100;
+            margin-bottom: 0.5rem;
+            font-size: 1rem;
+        }
+
+        /* Social Sharing */
+        .social-sharing {
+            text-align: center;
+            margin: 1.5rem 0;
+            padding: 1.5rem;
+            background: #fff3e0;
+            border-radius: 10px;
+        }
+
+        .social-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+            margin-top: 1rem;
+        }
+
+        .social-btn {
+            padding: 0.6rem 1rem;
+            border-radius: 25px;
+            text-decoration: none;
+            color: white;
+            font-weight: 500;
+            transition: transform 0.3s ease;
+            font-size: 0.9rem;
+        }
+
+        .social-btn:hover {
+            transform: translateY(-2px);
+        }
+
+        .whatsapp { background: #25d366; }
+        .instagram { background: #e4405f; }
+        .facebook { background: #1877f2; }
+
+        /* Members List */
+        .members-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1rem;
+        }
+
+        .member-card {
+            background: linear-gradient(135deg, #fff8e1 0%, #fff3e0 100%);
+            padding: 1rem;
+            border-radius: 12px;
+            border-left: 4px solid #ff8f00;
+            transition: transform 0.3s ease;
+        }
+
+        .member-card:hover {
+            transform: translateX(3px);
+            box-shadow: 0 5px 15px rgba(255,143,0,0.2);
+        }
+
+        .member-card .member-name {
+            font-weight: 600;
+            color: #e65100;
+            font-size: 1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .member-card .member-phone {
+            color: #666;
+            font-size: 0.9rem;
+        }
+
+        .sponsor-tag {
+            background: #ff8f00;
+            color: white;
+            padding: 0.2rem 0.8rem;
+            border-radius: 15px;
+            font-size: 0.8rem;
+            margin-top: 0.5rem;
+            display: inline-block;
+        }
+
+        /* Donation Section */
+        .donation-info {
+            background: linear-gradient(135deg, #fff3e0 0%, #ffcc02 100%);
+            padding: 1.5rem;
+            border-radius: 15px;
+            text-align: center;
+            margin: 1.5rem 0;
+            border: 3px solid #ff8f00;
+        }
+
+        .upi-id {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #e65100;
+            background: white;
+            padding: 0.8rem;
+            border-radius: 10px;
+            margin: 1rem 0;
+            border: 2px dashed #ff8f00;
+        }
+
+        .qr-section {
+            margin: 1.5rem 0;
+        }
+
+        .qr-section img {
+            border: 3px solid #ff8f00;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        /* Gallery Section */
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+            margin: 1.5rem 0;
+        }
+
+        .gallery-item {
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .gallery-item:hover {
+            transform: scale(1.05);
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        .video-container {
+            margin: 1.5rem 0;
+            text-align: center;
+        }
+
+        .video-wrapper {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .video-wrapper iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        /* Contact Cards */
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1rem;
+        }
+
+        .contact-card {
+            background: linear-gradient(135deg, #fff8e1 0%, #ffe0b2 100%);
+            padding: 1.5rem;
+            border-radius: 15px;
+            text-align: center;
+            border: 2px solid #ff8f00;
+        }
+
+        .contact-card h4 {
+            color: #e65100;
+            font-size: 1.1rem;
+            margin-bottom: 1rem;
+        }
+
+        .contact-info {
+            font-size: 1rem;
+            margin: 0.5rem 0;
+            color: #555;
+        }
+
+        /* Contact Form */
+        .contact-form {
+            background: #fff8e1;
+            padding: 1.5rem;
+            border-radius: 15px;
+            margin-top: 1.5rem;
+            border: 2px solid #ff8f00;
+        }
+
+        .form-group {
+            margin-bottom: 1rem;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            color: #e65100;
+            font-weight: 500;
+        }
+
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 0.7rem;
+            border: 2px solid #ffcc02;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            transition: border-color 0.3s ease;
+        }
+
+        .form-group input:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: #ff8f00;
+        }
+
+        .submit-btn {
+            background: linear-gradient(90deg, #ff8f00, #ff6f00);
+            color: white;
+            padding: 0.8rem 1.5rem;
+            border: none;
+            border-radius: 25px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+            width: 100%;
+        }
+
+        .submit-btn:hover {
+            transform: translateY(-2px);
+        }
+
+        /* WhatsApp Float Button */
+        .whatsapp-float {
+            position: fixed;
+            bottom: 15px;
+            right: 15px;
+            background: #25d366;
+            color: white;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            font-size: 1.2rem;
+            box-shadow: 0 4px 15px rgba(37, 211, 102, 0.4);
+            z-index: 1000;
+            transition: transform 0.3s ease;
+        }
+
+        .whatsapp-float:hover {
+            transform: scale(1.05);
+        }
+
+        /* Footer */
+        .footer {
+            background: linear-gradient(90deg, #ff8f00 0%, #ff6f00 100%);
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Sponsors Table Styles */
+        #sponsors table {
+            width: 100%;
+            max-width: 700px;
+            margin: auto;
+            border-collapse: collapse;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        #sponsors th, #sponsors td {
+            border: 1px solid #ccc;
+            padding: 12px;
+            text-align: left;
+        }
+
+        #sponsors th {
+            background-color: #ffe0b2;
+        }
+
+        #sponsors tfoot {
+            background-color: #fff3e0;
+            font-weight: bold;
+        }
+
+        .paid {
+            text-align: center;
+            font-size: 1.3rem;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .paid-yes { color: green; }
+        .paid-no { color: red; }
+
+        .download-btn {
+            padding: 5px 10px;
+            background: #ff9800;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            cursor: pointer;
+        }
+
+        .download-btn:hover {
+            background: #e65100;
+        }
+
+        /* Flower Animation */
+        .flower {
+            position: fixed;
+            top: -50px;
+            z-index: 9999;
+            pointer-events: none;
+            font-size: 24px;
+            animation: fall 5s linear infinite;
+        }
+
+        @keyframes fall {
+            0% { transform: translateY(0); opacity: 1; }
+            100% { transform: translateY(100vh); opacity: 0; }
+        }
+
+        /* Todo Section Styles */
+        #todo-section {
+            background: #fff3e0;
+            padding: 1.5rem;
+            margin: 2rem 0;
+            border-radius: 12px;
+            box-shadow: 0 0 8px rgba(0,0,0,0.1);
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #taskInput, #reminderDate, #reminderTime {
+            padding: 8px;
+            margin: 6px;
+            font-size: 1rem;
+        }
+
+        #taskListContainer {
+            max-height: 300px;
+            overflow-y: auto;
+            margin-top: 1rem;
+            border-top: 1px solid #ccc;
+            padding-top: 1rem;
+        }
+
+        #taskList {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        #taskList li {
+            padding: 10px;
+            background: #ffe0b2;
+            border-radius: 6px;
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        #taskForm {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 1rem;
+        }
+
+        #taskForm input,
+        #taskForm button {
+            width: 90%;
+            max-width: 400px;
+        }
+
+        /* Chatbox Styles */
+        #chatbox div {
+            margin: 6px 0;
+        }
+
+        /* Mobile Responsiveness */
+        @media (min-width: 768px) {
+            .booking-grid {
+                grid-template-columns: 1fr 1fr;
+                gap: 3rem;
+            }
+
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .event-dates {
+                grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+                gap: 1.5rem;
+            }
+            
+            .activities {
+                grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+                gap: 1.5rem;
+            }
+            
+            .members-grid {
+                grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+                gap: 1.5rem;
+            }
+            
+            .contact-grid {
+                grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+                gap: 2rem;
+            }
+            
+            .gallery-grid {
+                grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+                gap: 1.5rem;
+            }
+            
+            .gallery-item img {
+                height: 200px;
+            }
+            
+            .submit-btn {
+                width: auto;
+                padding: 1rem 2rem;
+            }
+
+            .summary-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .action-buttons {
+                flex-direction: column;
+                gap: 5px;
+            }
+
+            .attendance-btn {
+                font-size: 11px;
+                padding: 6px 12px;
+            }
+
+            .attendance-table th,
+            .attendance-table td {
+                padding: 10px 8px;
+                font-size: 12px;
+            }
+
+            .member-phone {
+                display: none;
+            }
+
+            .booking-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .stats-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .header-bar {
+                flex-direction: column;
+                gap: 10px;
+                padding: 15px;
+            }
+
+            .hero h1 {
+                font-size: 1.5rem;
+            }
+
+            .hero p {
+                font-size: 0.9rem;
+            }
+
+            .hero-subtitle {
+                font-size: 1rem;
+            }
+
+            .section {
+                padding: 1.5rem 0.8rem;
+            }
+
+            .section h2 {
+                font-size: 1.5rem;
+            }
+
+            .main-content {
+                margin-top: 120px;
+            }
+
+            .countdown {
+                gap: 0.3rem;
+            }
+
+            .countdown-item {
+                min-width: 55px;
+                padding: 0.6rem;
+            }
+
+            .countdown-number {
+                font-size: 1.2rem;
+            }
+
+            .social-buttons {
+                gap: 0.3rem;
+            }
+
+            .social-btn {
+                padding: 0.5rem 0.8rem;
+                font-size: 0.8rem;
+            }
+            
+            .gallery-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .attendance-section {
+                padding: 1rem;
+                margin: 1rem 0;
+            }
+
+            .attendance-header h2 {
+                font-size: 1.5rem;
+            }
+
+            .attendance-table {
+                font-size: 11px;
+            }
+
+            .attendance-table th,
+            .attendance-table td {
+                padding: 8px 4px;
+            }
+
+            .admin-login-btn {
+                font-size: 12px;
+                padding: 8px 16px;
+            }
+
+            .booking-section {
+                padding: 1rem;
+                margin: 1rem 0;
+            }
+
+            .booking-form {
+                padding: 1.5rem;
+            }
+
+            .bookings-list {
+                padding: 1.5rem;
+            }
+        }
+</style>
+</head>
+<body>
+    <audio id="alertSound" src="https://assets.mixkit.co/sfx/preview/mixkit-flute-alert-2307.mp3" preload="auto"></audio>
+
+    <!-- Header and Navigation -->
+    <header class="header-bar">
+        <!-- Left Side: Title -->
+        <h1 class="site-title">🪔 Vinayaka Chavithi 2025</h1>
+
+        <!-- Right Side: Buttons + Dropdown -->
+        <div style="display: flex; align-items: center; gap: 10px; flex-wrap: wrap;">
+            <button onclick="document.getElementById('chatbox').scrollIntoView({ behavior: 'smooth' })"
+                style="background-color: #d84315; color: white; padding: 8px 14px; border: none; border-radius: 6px; cursor: pointer;">
+                🐘 Chat with Ganesha
+            </button>
+
+            <!-- Professional Admin Login/Logout Button -->
+            <button id="adminLoginBtn" onclick="handleAdminLogin()" class="admin-login-btn login">
+                <span id="adminBtnIcon">🔐</span>
+                <span id="adminBtnText">Admin Login</span>
+            </button>
+
+            <select onchange="navigateToSection(this)" class="dropdown-nav">
+                <option selected disabled>Select</option>
+                <option value="#count-down">Count-down</option>
+                <option value="#pooja-booking">🕉️ Pooja Booking</option>
+                <option value="#event-info">Event Info</option>
+                <option value="#acknowledgment">Acknowledgment</option>
+                <option value="#members">Members</option>
+                <option value="#notes-section">📝 Notes List</option>
+                <option value="#gallery">Gallery</option>
+                <option value="#contact">Contact</option>
+                <option value="#sponsors">Sponsors</option>
+                <option value="#todo-section">To-do</option>
+                <option value="#sponsers-form">Sponsor Form</option>
+                <option value="#location">Location</option>
+                <option value="#attendance-management">Attendance</option>
+                <option value="#attendance-history">📊 Attendance History</option>
+                <option value="#chatbox">Chat with Ganesha</option>
+            </select>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Hero Section -->
+        <div class="container">
+            <section id="count-down" class="hero">
+                <h1>🙏 Vinayaka Chavithi 2025 🙏</h1>
+                <p>Join us for the grand celebration in Vellampalli Village</p>
+                <div class="hero-subtitle">Rajula mitta, vellampalli, Andhra Pradesh</div>
+                
+                <!-- Countdown Timer -->
+                <div class="countdown-container">
+                    <div class="countdown-title">⏰ Countdown to Celebration</div>
+                    <div class="countdown" id="countdown">
+                        <div class="countdown-item">
+                            <span class="countdown-number" id="days">00</span>
+                            <span class="countdown-label">Days</span>
+                        </div>
+                        <div class="countdown-item">
+                            <span class="countdown-number" id="hours">00</span>
+                            <span class="countdown-label">Hours</span>
+                        </div>
+                        <div class="countdown-item">
+                            <span class="countdown-number" id="minutes">00</span>
+                            <span class="countdown-label">Minutes</span>
+                        </div>
+                        <div class="countdown-item">
+                            <span class="countdown-number" id="seconds">00</span>
+                            <span class="countdown-label">Seconds</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Ganesha Pooja Booking System -->
+            <section id="pooja-booking" class="booking-section">
+                <div class="booking-header">
+                    <h2>🕉️ Ganesha Pooja Booking System</h2>
+                    <p style="color: #666; font-size: 1.1rem; max-width: 600px; margin: 0 auto;">
+                        Reserve your special pooja date during the Vinayaka Chavithi festival. 
+                        Join us in celebrating Lord Ganesha with devotion and community spirit.
+                    </p>
+                </div>
+
+                <div class="booking-grid">
+                    <!-- Booking Form -->
+                    <div class="booking-form">
+                        <h3>📅 Book Your Pooja Date</h3>
+                        
+                        <form id="poojaBookingForm">
+                            <div class="form-group">
+                                <label for="devotee-name">
+                                    👤 Full Name *
+                                </label>
+                                <input type="text" id="devotee-name" name="name" required placeholder="Enter your full name">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="devotee-phone">
+                                    📞 Phone Number *
+                                </label>
+                                <input type="tel" id="devotee-phone" name="phone" required placeholder="Enter your phone number">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="pooja-date">
+                                    📅 Pooja Date *
+                                </label>
+                                <select id="pooja-date" name="date" required>
+                                    <option value="">Select pooja date</option>
+                                    <option value="2025-08-27">August 27, 2025 - Vinayaka Chavithi Day 1 🎉</option>
+                                    <option value="2025-08-28">August 28, 2025 - Second Day Celebrations</option>
+                                    <option value="2025-08-29">August 29, 2025 - Third Day Celebrations</option>
+                                    <option value="2025-08-30">August 30, 2025 - Fourth Day Celebrations</option>
+                                    <option value="2025-08-31">August 31, 2025 - Vinayaka Nimajjanam Day 🌊</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="donation-amount">
+                                    💰 Donation Amount (Optional)
+                                </label>
+                                <input type="number" id="donation-amount" name="amount" min="0" placeholder="Enter donation amount (₹)">
+                            </div>
+
+                            <button type="submit" class="submit-btn">
+                                ✅ Confirm Booking
+                            </button>
+                        </form>
+
+                        <div class="booking-info">
+                            <h4>📍 Pooja Details:</h4>
+                            <p>📍 Location: Vellampalli Village, Rajula mitta</p>
+                            <p>⏰ Time: Morning and Evening Poojas Daily</p>
+                            <p>🍛 Prasadam will be distributed to all devotees</p>
+                        </div>
+                    </div>
+
+                    <!-- Bookings List -->
+                    <div class="bookings-list">
+                        <h3>📋 Current Reservations (<span id="total-bookings">0</span>)</h3>
+
+                        <!-- Summary Stats -->
+                        <div class="stats-grid">
+                            <div class="stat-card">
+                                <span class="stat-number" id="bookings-count">0</span>
+                                <div class="stat-label">Total Bookings</div>
+                            </div>
+                            <div class="stat-card">
+                                <span class="stat-number">₹<span id="total-donations">0</span></span>
+                                <div class="stat-label">Total Donations</div>
+                            </div>
+                        </div>
+
+                        <!-- Bookings Container -->
+                        <div class="bookings-container" id="bookings-container">
+                            <div class="empty-bookings">
+                                <div style="font-size: 3rem; margin-bottom: 1rem;">📅</div>
+                                <p>No bookings yet. Be the first to reserve your pooja date!</p>
+                            </div>
+                        </div>
+
+                        <!-- Date-wise Summary -->
+                        <div class="date-summary" id="date-summary" style="display: none;">
+                            <h4>📅 Date-wise Summary:</h4>
+                            <div class="date-summary-grid" id="date-summary-grid">
+                                <!-- Date summaries will be populated here -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Professional Attendance Management Section -->
+            <section id="attendance-management" class="attendance-section" style="display: none;">
+                <div class="attendance-header">
+                    <h2>📋 Attendance Management System</h2>
+                    <div class="attendance-date">
+                        📅 Today: <span id="currentDate"></span>
+                    </div>
+                    <p style="color: #666; margin-bottom: 0;">
+                        ✅ Admin access granted. You can now manage daily attendance.
+                    </p>
+                </div>
+
+                <table class="attendance-table">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Member Details</th>
+                            <th>Status</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr data-member="Kusampudi Eeswar Uday">
+                            <td style="text-align: center; font-weight: 600;">1</td>
+                            <td>
+                                <div class="member-name">Kusampudi Eeswar Uday</div>
+                                <div class="member-phone">📞 9848863038</div>
+                            </td>
+                            <td style="text-align: center;">
+                                <span class="status-badge status-pending">⏳ Not Marked</span>
+                            </td>
+                            <td>
+                                <div class="action-buttons">
+                                    <button class="attendance-btn btn-attended" onclick="markAttendance(this, 'attended')">
+                                        ✅ Attended
+                                    </button>
+                                    <button class="attendance-btn btn-absent" onclick="markAttendance(this, 'absent')">
+                                        ❌ Absent
+                                    </button>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr data-member="Sagi Kumar Varma">
+                            <td style="text-align: center; font-weight: 600;">2</td>
+                            <td>
+                                <div class="member-name">Sagi Kumar Varma</div>
+                                <div class="member-phone">📞 9948556090</div>
+                            </td>
+                            <td style="text-align: center;">
+                                <span class="status-badge status-pending">⏳ Not Marked</span>
+                            </td>
+                            <td>
+                                <div class="action-buttons">
+                                    <button class="attendance-btn btn-attended" onclick="markAttendance(this, 'attended')">
+                                        ✅ Attended
+                                    </button>
+                                    <button class="attendance-btn btn-absent" onclick="markAttendance(this, 'absent')">
+                                        ❌ Absent
+                                    </button>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr data-member="Samanthapudi Akhil Varma">
+                            <td style="text-align: center; font-weight: 600;">3</td>
+                            <td>
+                                <div class="member-name">Samanthapudi Akhil Varma</div>
+                                <div class="member-phone">📞 9014476677</div>
+                            </td>
+                            <td style="text-align: center;">
+                                <span class="status-badge status-pending">⏳ Not Marked</span>
+                            </td>
+                            <td>
+                                <div class="action-buttons">
+                                    <button class="attendance-btn btn-attended" onclick="markAttendance(this, 'attended')">
+                                        ✅ Attended
+                                    </button>
+                                    <button class="attendance-btn btn-absent" onclick="markAttendance(this, 'absent')">
+                                        ❌ Absent
+                                    </button>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr data-member="Uppalapati Pawan (Pandu)">
+                            <td style="text-align: center; font-weight: 600;">4</td>
+                            <td>
+                                <div class="member-name">Uppalapati Pawan (Pandu)</div>
+                                <div class="member-phone">📞 9866918299</div>
+                            </td>
+                            <td style="text-align: center;">
+                                <span class="status-badge status-pending">⏳ Not Marked</span>
+                            </td>
+                            <td>
+                                <div class="action-buttons">
+                                    <button class="attendance-btn btn-attended" onclick="markAttendance(this, 'attended')">
+                                        ✅ Attended
+                                    </button>
+                                    <button class="attendance-btn btn-absent" onclick="markAttendance(this, 'absent')">
+                                        ❌ Absent
+                                    </button>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr data-member="Samanthapudi Ajay Varma">
+                            <td style="text-align: center; font-weight: 600;">5</td>
+                            <td>
+                                <div class="member-name">Samanthapudi Ajay Varma</div>
+                                <div class="member-phone">📞 9014476677</div>
+                            </td>
+                            <td style="text-align: center;">
+                                <span class="status-badge status-pending">⏳ Not Marked</span>
+                            </td>
+                            <td>
+                                <div class="action-buttons">
+                                    <button class="attendance-btn btn-attended" onclick="markAttendance(this, 'attended')">
+                                        ✅ Attended
+                                    </button>
+                                    <button class="attendance-btn btn-absent" onclick="markAttendance(this, 'absent')">
+                                        ❌ Absent
+                                    </button>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr data-member="Nanda Kishore">
+                            <td style="text-align: center; font-weight: 600;">6</td>
+                            <td>
+                                <div class="member-name">Nanda Kishore</div>
+                                <div class="member-phone">📞 7075545698</div>
+                            </td>
+                            <td style="text-align: center;">
+                                <span class="status-badge status-pending">⏳ Not Marked</span>
+                            </td>
+                            <td>
+                                <div class="action-buttons">
+                                    <button class="attendance-btn btn-attended" onclick="markAttendance(this, 'attended')">
+                                        ✅ Attended
+                                    </button>
+                                    <button class="attendance-btn btn-absent" onclick="markAttendance(this, 'absent')">
+                                        ❌ Absent
+                                    </button>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr data-member="Tharun">
+                            <td style="text-align: center; font-weight: 600;">7</td>
+                            <td>
+                                <div class="member-name">Tharun</div>
+                                <div class="member-phone">📞 Contact through others</div>
+                            </td>
+                            <td style="text-align: center;">
+                                <span class="status-badge status-pending">⏳ Not Marked</span>
+                            </td>
+                            <td>
+                                <div class="action-buttons">
+                                    <button class="attendance-btn btn-attended" onclick="markAttendance(this, 'attended')">
+                                        ✅ Attended
+                                    </button>
+                                    <button class="attendance-btn btn-absent" onclick="markAttendance(this, 'absent')">
+                                        ❌ Absent
+                                    </button>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr data-member="Mahaveer Singh">
+                            <td style="text-align: center; font-weight: 600;">8</td>
+                            <td>
+                                <div class="member-name">Mahaveer Singh</div>
+                                <div class="member-phone">📞 6304010543</div>
+                            </td>
+                            <td style="text-align: center;">
+                                <span class="status-badge status-pending">⏳ Not Marked</span>
+                            </td>
+                            <td>
+                                <div class="action-buttons">
+                                    <button class="attendance-btn btn-attended" onclick="markAttendance(this, 'attended')">
+                                        ✅ Attended
+                                    </button>
+                                    <button class="attendance-btn btn-absent" onclick="markAttendance(this, 'absent')">
+                                        ❌ Absent
+                                    </button>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <!-- Attendance Summary -->
+                <div class="attendance-summary">
+                    <h3 style="text-align: center; color: #ff6f00; margin-bottom: 1rem;">📊 Daily Summary</h3>
+                    <div class="summary-grid">
+                        <div class="summary-item">
+                            <div class="summary-icon attended">✅</div>
+                            <div class="summary-count" id="attendedCount">0</div>
+                            <div class="summary-label">Attended</div>
+                        </div>
+                        <div class="summary-item">
+                            <div class="summary-icon absent">❌</div>
+                            <div class="summary-count" id="absentCount">0</div>
+                            <div class="summary-label">Absent</div>
+                        </div>
+                        <div class="summary-item">
+                            <div class="summary-icon pending">⏳</div>
+                            <div class="summary-count" id="pendingCount">8</div>
+                            <div class="summary-label">Not Marked</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Instructions for non-admin users -->
+            <section id="admin-instructions" class="admin-instructions">
+                <h3>🔐 Admin Access Required</h3>
+                <p>
+                    To access the attendance management system, please click the "🔐 Admin Login" button 
+                    in the header and enter the correct password.
+                </p>
+                <div class="features-list">
+                    <p style="font-weight: 600; margin-bottom: 10px; color: #4a148c;">Features available after admin login:</p>
+                    <ul>
+                        <li>Mark attendance for all organizing committee members</li>
+                        <li>View real-time daily attendance status</li>
+                        <li>Persistent data storage with date-based tracking</li>
+                        <li>Professional attendance summary and analytics</li>
+                        <li>Secure admin logout functionality</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Event Info Section -->
+            <section id="event-info" class="section">
+                <h2>📅 Event Information</h2>
+                <p style="text-align: center; font-size: 1.1rem; margin-bottom: 2rem; color: #666;">
+                    Join us for five days of devotion, celebration, and community spirit as we honor Lord Ganesha with decorated pandiri, traditional poojas, prasadam distribution, cultural activities, and community involvement.
+                </p>
+
+                <div class="event-dates">
+                    <div class="date-card special">
+                        <h3>August 27, 2025</h3>
+                        <p class="day">Wednesday</p>
+                        <p class="description">Vinayaka Chavithi - Day 1</p>
+                    </div>
+                    <div class="date-card">
+                        <h3>August 28, 2025</h3>
+                        <p class="day">Thursday</p>
+                        <p class="description">Second Day Celebrations</p>
+                    </div>
+                    <div class="date-card">
+                        <h3>August 29, 2025</h3>
+                        <p class="day">Friday</p>
+                        <p class="description">Third Day Celebrations</p>
+                    </div>
+                    <div class="date-card">
+                        <h3>August 30, 2025</h3>
+                        <p class="day">Saturday</p>
+                        <p class="description">Fourth Day Celebrations</p>
+                    </div>
+                    <div class="date-card special">
+                        <h3>August 31, 2025</h3>
+                        <p class="day">Sunday</p>
+                        <p class="description">Vinayaka Nimajjanam Day</p>
+                    </div>
+                </div>
+
+                <div class="activities">
+                    <div class="activity-card">
+                        <h4>🏮 Decorated Pandiri</h4>
+                        <p>Beautiful decorations and festive ambiance throughout the celebration</p>
+                    </div>
+                    <div class="activity-card">
+                        <h4>🙏 Daily Poojas</h4>
+                        <p>Traditional prayers and rituals performed with devotion</p>
+                    </div>
+                    <div class="activity-card">
+                        <h4>🍛 Prasadam Distribution</h4>
+                        <p>Sacred food offerings blessed by Lord Ganesha for all devotees</p>
+                    </div>
+                    <div class="activity-card">
+                        <h4>🎭 Cultural Activities</h4>
+                        <p>Traditional performances and community events</p>
+                    </div>
+                    <div class="activity-card">
+                        <h4>🤝 Community Involvement</h4>
+                        <p>Active participation from all village members and visitors</p>
+                    </div>
+                </div>
+
+                <!-- Social Sharing -->
+                <div class="social-sharing">
+                    <h3 style="color: #e65100; margin-bottom: 1rem;">📢 Share the Celebration</h3>
+                    <p style="color: #666; margin-bottom: 1rem;">Spread the word about our Vinayaka Chavithi celebration</p>
+                    <div class="social-buttons">
+                        <a href="https://wa.me/?text=Join%20us%20for%20Vinayaka%20Chavithi%202025%20in%20Vellampalli%20Village%20from%20August%2027-31!" class="social-btn whatsapp">📱 WhatsApp</a>
+                        <a href="https://www.instagram.com/" class="social-btn instagram">📸 Instagram</a>
+                        <a href="https://www.facebook.com/sharer/sharer.php?u=" class="social-btn facebook">👥 Facebook</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- General Acknowledgment Section -->
+            <section id="acknowledgment" class="section">
+                <h2>🙏 General Acknowledgment</h2>
+                <div style="text-align: center; margin-bottom: 2rem;">
+                    <p style="font-size: 1.1rem; margin-bottom: 1rem; color: #666;">
+                        We are grateful for your support in making this celebration memorable
+                    </p>
+                    
+                    <div style="background: #fff8e1; padding: 1.5rem; border-radius: 10px; margin: 1.5rem 0; border: 2px solid #ffcc02;">
+                        <h4 style="color: #e65100; margin-bottom: 1rem;">🍛 Prasadam Distribution</h4>
+                        <p style="color: #666;">Sacred prasadam will be distributed to all devotees every day throughout the celebration period</p>
+                    </div>
+
+                    <div style="background: #fff8e1; padding: 1.5rem; border-radius: 10px; margin: 1.5rem 0; border: 2px solid #ffcc02;">
+                        <h4 style="color: #e65100; margin-bottom: 1rem;">🎭 Entertainment Information</h4>
+                        <p style="color: #666;">For details about cultural activities and entertainment programs, please approach our organizing team members</p>
+                    </div>
+                </div>
+
+                <div class="donation-info">
+                    <h3 style="color: #e65100; margin-bottom: 1rem;">💰 Support Our Celebration</h3>
+                    <p style="margin-bottom: 1rem;">Your donations help us organize this beautiful celebration</p>
+                    
+                    <div class="upi-id">
+                        UPI ID: 9948556090@postbank
+                    </div>
+
+                    <div class="qr-section">
+                        <p style="font-weight: 600; margin-bottom: 1rem; color: #e65100;">Scan to Donate:</p>
+                        <img src="upi_qr.png" width="250" alt="UPI QR Code for Donations" style="max-width: 100%; height: auto;">
+                <!-- Website Sharing Section -->
+                <div style="background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%); padding: 1.5rem; border-radius: 15px; text-align: center; margin: 1.5rem 0; border: 3px solid #2196f3;">
+                    <h3 style="color: #1565c0; margin-bottom: 1rem;">📱 Share Our Website</h3>
+                    <p style="margin-bottom: 1rem; color: #1976d2;">Share this website with friends and family</p>
+                    <div style="margin: 1.5rem 0;">
+                        <p style="font-weight: 600; margin-bottom: 1rem; color: #1565c0;">Scan to Visit Website:</p>
+                        <img src="https://github.com/Eeswaruday/vinayaka_-chathurthi/upload" alt="Vinayaka Chavithi Website QR" width="250" style="max-width: 100%; height: auto; border: 3px solid #2196f3; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);" />
+                    </div>
+                    
+                    <p style="font-size: 0.9rem; color: #1976d2; margin-top: 1rem;">
+                        🔗 Website: eeswaruday.github.io/vinayaka_chathurthi
+                    </p>
+                </div>
+                        <p style="font-size: 0.9rem; color: #666; margin-top: 0.5rem;">Scan to visit our website</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Honourable Members Section -->
+            <section id="members" class="section">
+                <h2>👥 Honourable Members</h2>
+                <p style="text-align: center; font-size: 1.1rem; margin-bottom: 2rem; color: #666;">
+                    Meet our dedicated organizing committee members
+                </p>
+
+                <div class="members-grid">
+                    <div class="member-card">
+                        <div class="member-name">Kusampudi Eeswar Uday</div>
+                        <div class="member-phone">📞 9848863038</div>
+                    </div>
+                    <div class="member-card">
+                        <div class="member-name">Sagi Kumar Varma</div>
+                        <div class="member-phone">📞 9948556090</div>
+                    </div>
+                    <div class="member-card">
+                        <div class="member-name">Samanthapudi Akhil Varma</div>
+                        <div class="member-phone">📞 9014476677</div>
+                    </div>
+                    <div class="member-card">
+                        <div class="member-name">Uppalapati Pawan (Pandu)</div>
+                        <div class="member-phone">📞 9866918299</div>
+                    </div>
+                    <div class="member-card">
+                        <div class="member-name">Samanthapudi Ajay Varma</div>
+                        <div class="member-phone">📞 9014476677</div>
+                    </div>
+                    <div class="member-card">
+                        <div class="member-name">Nanda Kishore</div>
+                        <div class="member-phone">📞 7075545698</div>
+                    </div>
+                    <div class="member-card">
+                        <div class="member-name">Tharun</div>
+                        <div class="member-phone">📞 Contact through other members</div>
+                    </div>
+                    <div class="member-card">
+                        <div class="member-name">Mahaveer Singh</div>
+                        <div class="member-phone">📞 6304010543</div>
+                        <div class="sponsor-tag">🍬 Laddu Sponsor</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 📝 NOTES LIST SECTION - VISIBLE TO ALL MEMBERS -->
+            <section id="notes-section" class="section">
+                <h2>📝 Important Notes & Announcements</h2>
+                <p style="text-align: center; font-size: 1.1rem; margin-bottom: 2rem; color: #666;">
+                    Stay updated with important announcements and notes from the organizing committee
+                </p>
+
+                <!-- Admin Note Input (Only visible to admin) -->
+                <div id="admin-note-input" style="display: none; background: #fff3e0; padding: 1.5rem; border-radius: 10px; margin-bottom: 2rem; border: 2px solid #ff8f00;">
+                    <h4 style="color: #e65100; margin-bottom: 1rem;">🔐 Admin: Add New Note</h4>
+                    <div style="display: flex; flex-direction: column; gap: 10px;">
+                        <input type="text" id="noteTitle" placeholder="Note title..." style="padding: 10px; border: 2px solid #ffcc02; border-radius: 6px; font-size: 1rem;">
+                        <textarea id="noteContent" placeholder="Note content..." rows="3" style="padding: 10px; border: 2px solid #ffcc02; border-radius: 6px; font-size: 1rem; resize: vertical;"></textarea>
+                        <div style="display: flex; gap: 10px;">
+                            <select id="notePriority" style="padding: 10px; border: 2px solid #ffcc02; border-radius: 6px; flex: 1;">
+                                <option value="normal">📋 Normal</option>
+                                <option value="important">⚠️ Important</option>
+                                <option value="urgent">🚨 Urgent</option>
+                            </select>
+                            <button onclick="addNote()" style="padding: 10px 20px; background: #ff8f00; color: white; border: none; border-radius: 6px; cursor: pointer; font-weight: bold;">Add Note</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Notes Display -->
+                <div id="notes-container">
+                    <div style="text-align: center; color: #666; padding: 2rem;">
+                        📝 No notes available yet. Check back later for updates!
+                    </div>
+                </div>
+            </section>
+
+            <!-- Gallery Section -->
+            <section id="gallery" class="section">
+                <h2>📸 Gallery</h2>
+                <p style="text-align: center; font-size: 1.1rem; margin-bottom: 2rem; color: #666;">
+                    Memories from our celebrations and preparation activities
+                </p>
+
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="image1.jpg" alt="Vinayaka Chavithi Celebration">
+                    </div>
+                </div>
+                <div class="video-container">
+                    <h3 style="color: #e65100; margin-bottom: 1rem;">🎥 Pandiri Building Example</h3>
+                    <p style="color: #666; margin-bottom: 1rem;">Watch how traditional pandiri decorations are created</p>
+                    <div class="video-wrapper">
+                        <iframe src="video pandiri making.mp4" 
+                                title="Pandiri Building Example" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 📊 ATTENDANCE HISTORY SECTION -->
+            <section id="attendance-history" class="section">
+                <h2>📊 Previous Attendance Records</h2>
+                <p style="text-align: center; font-size: 1.1rem; margin-bottom: 2rem; color: #666;">
+                    View attendance records from previous days
+                </p>
+
+                <div style="text-align: center; margin-bottom: 2rem;">
+                    <button onclick="loadAttendanceHistory()" style="padding: 12px 24px; background: #ff8f00; color: white; border: none; border-radius: 8px; font-size: 1rem; cursor: pointer; font-weight: bold;">
+                        🔄 Load Attendance History
+                    </button>
+                </div>
+
+                <div id="history-container">
+                    <div style="text-align: center; color: #666; padding: 2rem;">
+                        📊 Click "Load Attendance History" to view previous records
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact" class="section">
+                <h2>📞 Contact Us</h2>
+                <p style="text-align: center; font-size: 1.1rem; margin-bottom: 2rem; color: #666;">
+                    For any inquiries or information, feel free to reach out to us
+                </p>
+
+                <div class="contact-grid">
+                    <div class="contact-card">
+                        <h4>Eeswar Uday</h4>
+                        <div class="contact-info">📞 9848863038</div>
+                        <div class="contact-info">✉️ uday90925@gmail.com</div>
+                    </div>
+                    <div class="contact-card">
+                        <h4>Kumar</h4>
+                        <div class="contact-info">📞 9948556090</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Sponsors Section -->
+            <section id="sponsors" style="padding: 2rem;">
+                <h2 style="text-align:center;">💰 Sponsor Contributions</h2>
+                <table id="sponsorTable">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Amount (₹)</th>
+                            <th>Paid?</th>
+                            <th>Receipt</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Kusampudi Eeswar Uday</td>
+                            <td class="amount">500</td>
+                            <td class="paid" data-key="eeswar" data-name="Kusampudi Eeswar Uday" data-amount="500" onclick="togglePaid(this, 'eeswar')"></td>
+                            <td class="receipt-cell" id="receipt-eeswar"></td>
+                        </tr>
+                        <tr>
+                            <td>Kumar</td>
+                            <td class="amount">500</td>
+                            <td class="paid" data-key="Kumar" data-name="Kumar" data-amount="500" onclick="togglePaid(this, 'Kumar')"></td>
+                            <td class="receipt-cell" id="receipt-Kumar"></td>
+                        </tr>
+                        <tr>
+                            <td>Akhil</td>
+                            <td class="amount">500</td>
+                            <td class="paid" data-key="Akhil" data-name="Akhil" data-amount="500" onclick="togglePaid(this, 'Akhil')"></td>
+                            <td class="receipt-cell" id="receipt-Akhil"></td>
+                        </tr>
+                        <tr>
+                            <td>Pandu</td>
+                            <td class="amount">500</td>
+                            <td class="paid" data-key="Pandu" data-name="Pandu" data-amount="500" onclick="togglePaid(this, 'Pandu')"></td>
+                            <td class="receipt-cell" id="receipt-Pandu"></td>
+                        </tr>
+                        <tr>
+                            <td>Nandu</td>
+                            <td class="amount">300</td>
+                            <td class="paid" data-key="Nandu" data-name="Nandu" data-amount="300" onclick="togglePaid(this, 'Nandu')"></td>
+                            <td class="receipt-cell" id="receipt-Nandu"></td>
+                        </tr>
+                        <tr>
+                            <td>Tharun</td>
+                            <td class="amount">300</td>
+                            <td class="paid" data-key="Tharun" data-name="Tharun" data-amount="300" onclick="togglePaid(this, 'Tharun')"></td>
+                            <td class="receipt-cell" id="receipt-Tharun"></td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td>Total</td>
+                            <td id="totalAmount">₹0</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </section>
+
+            <!-- Todo Section -->
+            <section id="todo-section">
+                <h2>📋 Task Reminders & To-Do List</h2>
+                <div id="taskForm">
+                    <input type="text" id="taskInput" placeholder="Enter your task..." />
+                    <input type="date" id="reminderDate" />
+                    <input type="time" id="reminderTime" />
+                    <button onclick="addTask()" style="padding: 8px 12px; background-color: #ff9800; color: white; border: none; border-radius: 5px; cursor: pointer;">Add Task</button>
+                </div>
+                <div id="taskListContainer">
+                    <ul id="taskList"></ul>
+                </div>
+            </section>
+
+            <!-- Sponsors and Volunteers Form -->
+            <section id="sponsers-form" class="section">
+                <div class="contact-form">
+                    <h3 style="color: #e65100; text-align: center; margin-bottom: 1.5rem;">🤝 Sponsors & Volunteers</h3>
+                    <p style="text-align: center; color: #666; margin-bottom: 2rem;">
+                        Interested in sponsoring or volunteering? Get in touch with us!
+                    </p>
+                    
+                    <form id="sponsorForm">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Tell us how you'd like to contribute..."></textarea>
+                        </div>
+                        <div style="text-align: center;">
+                            <button type="submit" class="submit-btn">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+
+            <!-- Location Section -->
+            <section id="location" style="padding: 2rem;">
+                <h2>📍 Our Location - Visit the Pandal</h2>
+                <div style="border: 2px solid #ccc; border-radius: 8px; overflow: hidden;">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d480.26473419514105!2d80.01019313127735!3d15.638710353734849!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1753162554209!5m2!1sen!2sin"
+                        width="600" height="450" 
+                        style="border:0; width: 100%;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </section>
+
+            <!-- Ganesha Chatbox -->
+            <section id="chatbox-section" class="section">
+                <h2>🐘 Chat with Lord Ganesha</h2>
+                <div id="chatbox" style="background: #ffffff; border: 2px solid #e65100; border-radius: 10px; padding: 10px; max-width: 500px; margin: auto; height: 400px; overflow-y: auto; text-align: left;">
+                    <div><strong>🐘 Vinayaka:</strong> Welcome! Ask me anything about Vinayaka Chavithi, or type <strong>quiz</strong> to begin! 🙏</div>
+                </div>
+
+                <!-- Input & Ask Button -->
+                <div style="margin-top: 10px; display: flex; justify-content: center; align-items: center; gap: 10px;">
+                    <input type="text" id="userInput" placeholder="Ask Ganesha..." style="width: 70%; padding: 10px; font-size: 1rem; border: 1px solid #ccc; border-radius: 6px;">
+                    <button onclick="askGanesha()" style="padding: 10px 20px; background-color: #e65100; color: white; border: none; border-radius: 6px; font-size: 1rem;">Ask</button>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/919848863038?text=Hello!%20I%20have%20a%20question%20about%20Vinayaka%20Chavithi%202025%20celebration" 
+       class="whatsapp-float" 
+       target="_blank" 
+       title="Chat with Eeswar Uday">
+        💬
+    </a>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 Vinayaka Chavithi - Vellampalli</p>
+        <p style="margin-top: 0.5rem; font-size: 0.9rem; opacity: 0.9;">
+            🙏 Ganpati Bappa Morya! 🙏
+        </p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script>
+        // Global Variables
+        let isAdmin = false;
+        let attendance = {};
+        const currentDate = new Date().toISOString().split('T')[0];
+        const attendanceKey = `attendance-${currentDate}`;
+        const adminKey = 'admin-login-state';
+
+        // Pooja Booking System Variables
+        let poojaBookings = [];
+        const bookingsKey = 'ganesha-pooja-bookings';
+
+        // Festival dates for booking
+        const festivalDates = {
+            '2025-08-27': 'Vinayaka Chavithi - Day 1 🎉',
+            '2025-08-28': 'Second Day Celebrations',
+            '2025-08-29': 'Third Day Celebrations',
+            '2025-08-30': 'Fourth Day Celebrations',
+            '2025-08-31': 'Vinayaka Nimajjanam Day 🌊'
+        };
+
+        // Initialize on page load
+        window.onload = function() {
+            initializeApp();
+        };
+
+        function initializeApp() {
+            // Load admin state
+            const savedAdminState = localStorage.getItem(adminKey);
+            if (savedAdminState === 'true') {
+                isAdmin = true;
+                showAttendanceSection();
+                updateAdminButton();
+            } else {
+                hideAttendanceSection();
+            }
+
+            // Load attendance data
+            loadAttendanceData();
+            
+            // Load pooja bookings
+            loadPoojaBookings();
+            
+            // Update current date display
+            updateCurrentDate();
+            
+            // Initialize other components
+            renderTasks();
+            checkReminders();
+            triggerFlowerIfToday();
+            loadPaidStatus();
+            updateTotalAmount();
+            updateCountdown();
+            
+            // Setup event listeners
+            setupEventListeners();
+        }
+
+        // Pooja Booking System Functions
+        function loadPoojaBookings() {
+            const savedBookings = localStorage.getItem(bookingsKey);
+            if (savedBookings) {
+                try {
+                    poojaBookings = JSON.parse(savedBookings);
+                } catch (error) {
+                    console.error('Error loading bookings:', error);
+                    poojaBookings = [];
+                }
+            }
+            renderBookings();
+        }
+
+        function savePoojaBookings() {
+            localStorage.setItem(bookingsKey, JSON.stringify(poojaBookings));
+        }
+
+        function handlePoojaBookingSubmit(e) {
+            e.preventDefault();
+            
+            const formData = new FormData(e.target);
+            const booking = {
+                id: Date.now().toString(),
+                name: formData.get('name').trim(),
+                phone: formData.get('phone').trim(),
+                date: formData.get('date'),
+                amount: parseInt(formData.get('amount')) || 0,
+                timestamp: Date.now()
+            };
+
+            // Validation
+            if (!booking.name) {
+                alert('❌ Please enter your name');
+                return;
+            }
+
+            if (!booking.phone) {
+                alert('❌ Please enter your phone number');
+                return;
+            }
+
+            if (!/^\d{10}$/.test(booking.phone.replace(/[^\d]/g, ''))) {
+                alert('❌ Please enter a valid 10-digit phone number');
+                return;
+            }
+
+            if (!booking.date) {
+                alert('❌ Please select a pooja date');
+                return;
+            }
+
+            // Check for duplicate booking
+            const existingBooking = poojaBookings.find(
+                b => b.date === booking.date && b.phone === booking.phone
+            );
+
+            if (existingBooking) {
+                alert('⚠️ You have already booked for this date!');
+                return;
+            }
+
+            // Add booking
+            poojaBookings.unshift(booking);
+            savePoojaBookings();
+            renderBookings();
+
+            // Success message
+            const dateLabel = festivalDates[booking.date] || 'Special Day';
+            alert(`✅ Booking confirmed! 
+
+🙏 Name: ${booking.name}
+📅 Date: ${formatDate(booking.date)} - ${dateLabel}
+📞 Phone: ${booking.phone}
+💰 Donation: ₹${booking.amount}
+
+May Lord Ganesha bless you! 🐘`);
+
+            // Reset form
+            e.target.reset();
+        }
+
+        function renderBookings() {
+            const container = document.getElementById('bookings-container');
+            const totalBookingsSpan = document.getElementById('total-bookings');
+            const bookingsCountSpan = document.getElementById('bookings-count');
+            const totalDonationsSpan = document.getElementById('total-donations');
+            const dateSummarySection = document.getElementById('date-summary');
+            
+            // Update counts
+            const totalBookings = poojaBookings.length;
+            const totalDonations = poojaBookings.reduce((sum, booking) => sum + booking.amount, 0);
+            
+            totalBookingsSpan.textContent = totalBookings;
+            bookingsCountSpan.textContent = totalBookings;
+            totalDonationsSpan.textContent = totalDonations;
+
+            if (totalBookings === 0) {
+                container.innerHTML = `
+                    <div class="empty-bookings">
+                        <div style="font-size: 3rem; margin-bottom: 1rem;">📅</div>
+                        <p>No bookings yet. Be the first to reserve your pooja date!</p>
+                    </div>
+                `;
+                dateSummarySection.style.display = 'none';
+                return;
+            }
+
+            // Render booking cards
+            let bookingsHTML = '';
+            poojaBookings.forEach(booking => {
+                const dateLabel = festivalDates[booking.date] || 'Special Day';
+                bookingsHTML += `
+                    <div class="booking-card">
+                        <div class="booking-header-card">
+                            <div>
+                                <div class="booking-name">${booking.name}</div>
+                                <div class="booking-date-special">${dateLabel}</div>
+                            </div>
+                            <div class="booking-status">✅ Confirmed</div>
+                        </div>
+                        <div class="booking-details">
+                            <div class="booking-detail">
+                                📞 ${booking.phone}
+                            </div>
+                            <div class="booking-detail">
+                                📅 ${formatDate(booking.date)}
+                            </div>
+                            ${booking.amount > 0 ? `
+                                <div class="booking-detail booking-donation">
+                                    💰 ₹${booking.amount} donation
+                                </div>
+                            ` : ''}
+                            <div style="font-size: 0.8rem; color: #999; margin-top: 0.5rem;">
+                                Booked on ${new Date(booking.timestamp).toLocaleDateString()}
+                            </div>
+                        </div>
+                    </div>
+                `;
+            });
+
+            container.innerHTML = bookingsHTML;
+
+            // Show and render date summary
+            dateSummarySection.style.display = 'block';
+            renderDateSummary();
+        }
+
+        function renderDateSummary() {
+            const grid = document.getElementById('date-summary-grid');
+            let summaryHTML = '';
+
+            Object.keys(festivalDates).forEach(date => {
+                const dateBookings = poojaBookings.filter(booking => booking.date === date);
+                const bookingCount = dateBookings.length;
+                const totalDonations = dateBookings.reduce((sum, booking) => sum + booking.amount, 0);
+                const hasBookings = bookingCount > 0;
+
+                summaryHTML += `
+                    <div class="date-summary-card ${hasBookings ? 'has-bookings' : ''}">
+                        <div class="date-info">
+                            <div class="date-name">${formatDate(date)}</div>
+                            <div class="date-label">${festivalDates[date]}</div>
+                        </div>
+                        <div class="date-stats">
+                            <div class="date-bookings">
+                                ${bookingCount} booking${bookingCount !== 1 ? 's' : ''}
+                            </div>
+                            ${totalDonations > 0 ? `
+                                <div class="date-donations">₹${totalDonations} donated</div>
+                            ` : ''}
+                        </div>
+                    </div>
+                `;
+            });
+
+            grid.innerHTML = summaryHTML;
+        }
+
+        function formatDate(dateString) {
+            const date = new Date(dateString);
+            const options = { 
+                weekday: 'long', 
+                year: 'numeric', 
+                month: 'long', 
+                day: 'numeric' 
+            };
+            return date.toLocaleDateString('en-US', options);
+        }
+
+        // Admin Login/Logout Functionality
+        function handleAdminLogin() {
+            if (!isAdmin) {
+                const password = prompt('🔐 Enter Admin Password:');
+                if (password === '9999') {
+                    isAdmin = true;
+                    localStorage.setItem(adminKey, 'true');
+                    showAttendanceSection();
+                    updateAdminButton();
+                    alert('✅ Admin access granted successfully!');
+                } else if (password !== null) {
+                    alert('❌ Incorrect password. Access denied.');
+                }
+            } else {
+                if (confirm('🚪 Are you sure you want to logout from admin mode?')) {
+                    isAdmin = false;
+                    localStorage.removeItem(adminKey);
+                    hideAttendanceSection();
+                    updateAdminButton();
+                    alert('🔒 Admin logout successful.');
+                }
+            }
+        }
+
+        function updateAdminButton() {
+            const btn = document.getElementById('adminLoginBtn');
+            const icon = document.getElementById('adminBtnIcon');
+            const text = document.getElementById('adminBtnText');
+            
+            if (isAdmin) {
+                btn.className = 'admin-login-btn logout';
+                icon.textContent = '🚪';
+                text.textContent = 'Logout Admin';
+            } else {
+                btn.className = 'admin-login-btn login';
+                icon.textContent = '🔐';
+                text.textContent = 'Admin Login';
+            }
+        }
+
+        function showAttendanceSection() {
+            document.getElementById('attendance-management').style.display = 'block';
+            document.getElementById('admin-instructions').style.display = 'none';
+            
+            // Show admin note input
+            document.getElementById("admin-note-input").style.display = "block";
+        }
+
+        function hideAttendanceSection() {
+            document.getElementById('attendance-management').style.display = 'none';
+            document.getElementById('admin-instructions').style.display = 'block';
+        }
+
+        // Attendance Management Functions
+        function markAttendance(button, status) {
+            const row = button.closest('tr');
+            const memberName = row.getAttribute('data-member');
+            const statusBadge = row.querySelector('.status-badge');
+            const actionButtons = row.querySelectorAll('.attendance-btn');
+            
+            // Update UI
+            if (status === 'attended') {
+                statusBadge.className = 'status-badge status-attended';
+                statusBadge.innerHTML = '✅ Attended';
+            } else {
+                statusBadge.className = 'status-badge status-absent';
+                statusBadge.innerHTML = '❌ Absent';
+            }
+            
+            // Disable buttons
+            actionButtons.forEach(btn => btn.disabled = true);
+            
+            // Save to localStorage
+            attendance[memberName] = status;
+            localStorage.setItem(attendanceKey, JSON.stringify(attendance));
+            
+            // Update summary
+            updateAttendanceSummary();
+        }
+
+        function loadAttendanceData() {
+            const savedAttendance = localStorage.getItem(attendanceKey);
+            if (savedAttendance) {
+                try {
+                    attendance = JSON.parse(savedAttendance);
+                    
+                    // Update UI for each member
+                    Object.keys(attendance).forEach(memberName => {
+                        const row = document.querySelector(`tr[data-member="${memberName}"]`);
+                        if (row) {
+                            const status = attendance[memberName];
+                            const statusBadge = row.querySelector('.status-badge');
+                            const actionButtons = row.querySelectorAll('.attendance-btn');
+                            
+                            if (status === 'attended') {
+                                statusBadge.className = 'status-badge status-attended';
+                                statusBadge.innerHTML = '✅ Attended';
+                            } else {
+                                statusBadge.className = 'status-badge status-absent';
+                                statusBadge.innerHTML = '❌ Absent';
+                            }
+                            
+                            actionButtons.forEach(btn => btn.disabled = true);
+                        }
+                    });
+                    
+                    updateAttendanceSummary();
+                } catch (error) {
+                    console.error('Error loading attendance data:', error);
+                }
+            }
+        }
+
+        function updateAttendanceSummary() {
+            const totalMembers = 8;
+            const attendedCount = Object.values(attendance).filter(status => status === 'attended').length;
+            const absentCount = Object.values(attendance).filter(status => status === 'absent').length;
+            const pendingCount = totalMembers - attendedCount - absentCount;
+            
+            document.getElementById('attendedCount').textContent = attendedCount;
+            document.getElementById('absentCount').textContent = absentCount;
+            document.getElementById('pendingCount').textContent = pendingCount;
+        }
+
+        function updateCurrentDate() {
+            const date = new Date();
+            const options = { 
+                weekday: 'long', 
+                year: 'numeric', 
+                month: 'long', 
+                day: 'numeric' 
+            };
+            document.getElementById('currentDate').textContent = date.toLocaleDateString('en-US', options);
+        }
+
+        // Navigation Function
+        function navigateToSection(select) {
+            const section = select.value;
+            if (section) {
+                document.querySelector(section).scrollIntoView({ behavior: "smooth" });
+            }
+        }
+
+        // Countdown Timer
+        function updateCountdown() {
+            const eventDate = new Date('2025-08-27T00:00:00').getTime();
+            const now = new Date().getTime();
+            const distance = eventDate - now;
+            
+            if (distance > 0) {
+                const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                
+                document.getElementById('days').textContent = days.toString().padStart(2, '0');
+                document.getElementById('hours').textContent = hours.toString().padStart(2, '0');
+                document.getElementById('minutes').textContent = minutes.toString().padStart(2, '0');
+                document.getElementById('seconds').textContent = seconds.toString().padStart(2, '0');
+            } else {
+                document.getElementById('countdown').innerHTML = '<div style="font-size: 1.5rem; font-weight: 600;">🎉 The Celebration Has Begun! 🎉</div>';
+            }
+        }
+
+        // Flower Animation
+        function startFlowerRain() {
+            const flower = "🌸";
+            const count = 20;
+
+            for (let i = 0; i < count; i++) {
+                const span = document.createElement("span");
+                span.classList.add("flower");
+                span.style.left = Math.random() * 100 + "vw";
+                span.style.animationDuration = (Math.random() * 3 + 3) + "s";
+                span.innerText = flower;
+                document.body.appendChild(span);
+
+                setTimeout(() => {
+                    span.remove();
+                }, 5000);
+            }
+        }
+
+        function triggerFlowerIfToday() {
+            const today = new Date().toISOString().split("T")[0];
+            const chavithiDate = "2025-08-27";
+
+            if (today === chavithiDate) {
+                setInterval(startFlowerRain, 1000);
+            }
+        }
+
+        // Sponsors Management
+        function updateTotalAmount() {
+            let total = 0;
+            document.querySelectorAll('.amount').forEach(cell => {
+                total += parseInt(cell.textContent.trim());
+            });
+            document.getElementById('totalAmount').textContent = `₹${total}`;
+        }
+
+        function togglePaid(cell, key) {
+            const password = prompt("Enter admin password to change status:");
+            if (password !== "9999") {
+                alert("Incorrect password. You are not allowed to change this.");
+                return;
+            }
+
+            const name = cell.getAttribute('data-name');
+            const amount = cell.getAttribute('data-amount');
+            const receiptCell = document.getElementById('receipt-' + key);
+
+            if (cell.textContent.includes('✅')) {
+                cell.textContent = '❌';
+                cell.classList.remove('paid-yes');
+                cell.classList.add('paid-no');
+                localStorage.setItem(key, 'no');
+                if (receiptCell) receiptCell.innerHTML = '';
+            } else {
+                cell.textContent = '✅';
+                cell.classList.remove('paid-no');
+                cell.classList.add('paid-yes');
+                localStorage.setItem(key, 'yes');
+                if (receiptCell) {
+                    receiptCell.innerHTML = `<button class="download-btn" onclick="downloadReceipt('${name}', ${amount}, '✅')">Download</button>`;
+                }
+            }
+        }
+
+        function loadPaidStatus() {
+            const paidCells = document.querySelectorAll('.paid');
+
+            paidCells.forEach(cell => {
+                const key = cell.getAttribute('data-key');
+                const name = cell.getAttribute('data-name');
+                const amount = cell.getAttribute('data-amount');
+                const receiptCell = document.getElementById('receipt-' + key);
+                const status = localStorage.getItem(key);
+
+                if (status === 'yes') {
+                    cell.innerHTML = '✅';
+                    cell.classList.add('paid-yes');
+                    cell.classList.remove('paid-no');
+                    if (receiptCell) {
+                        receiptCell.innerHTML = `<button class="download-btn" onclick="downloadReceipt('${name}', ${amount}, '✅')">Download</button>`;
+                    }
+                } else {
+                    cell.innerHTML = '❌';
+                    cell.classList.add('paid-no');
+                    cell.classList.remove('paid-yes');
+                    if (receiptCell) {
+                        receiptCell.innerHTML = '';
+                    }
+                }
+            });
+        }
+
+        async function downloadReceipt(name, amount, status) {
+            const { jsPDF } = window.jspdf;
+            const doc = new jsPDF();
+
+            const pageWidth = doc.internal.pageSize.getWidth();
+            const centerX = pageWidth / 2;
+
+            doc.setFont("helvetica", "bold");
+            doc.setFontSize(20);
+            doc.setTextColor(0, 102, 204);
+            doc.text("VINAYAKA CHAVITHI 2025", centerX, 25, { align: "center" });
+
+            doc.setFontSize(14);
+            doc.setFont("helvetica", "normal");
+            doc.setTextColor(0);
+            doc.text("Official Sponsor Receipt", centerX, 35, { align: "center" });
+
+            doc.setDrawColor(0, 102, 204);
+            doc.line(30, 40, pageWidth - 30, 40);
+
+            let y = 50;
+            const leftX = 40;
+
+            doc.setFontSize(12);
+            doc.text(`Sponsor Name : ${name}`, leftX, y); y += 10;
+            doc.text(`Amount Paid  : ${amount}`, leftX, y); y += 10;
+            doc.text(`Status       : ${status === '✅' ? 'Paid' : 'Not Paid'}`, leftX, y); y += 10;
+            doc.text(`Date Issued  : ${new Date().toLocaleDateString()}`, leftX, y); y += 20;
+
+            doc.setFontSize(11);
+            doc.setTextColor(80, 80, 80);
+            doc.text("Thank you for your generous contribution.", centerX, y, { align: "center" }); y += 8;
+            doc.text("May Lord Ganesha bless you and your family", centerX, y, { align: "center" }); y += 8;
+            doc.text("with peace and prosperity.", centerX, y, { align: "center" });
+
+            doc.setDrawColor(180);
+            doc.roundedRect(20, 30, pageWidth - 40, y + 10 - 20, 5, 5);
+
+            doc.save(`${name}_Vinayaka_Receipt.pdf`);
+        }
+
+        // Todo List Management
+        let tasks = JSON.parse(localStorage.getItem("vcTasks")) || [];
+
+        function getFormattedDate(dateStr) {
+            const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+            const date = new Date(dateStr);
+            const day = days[date.getDay()];
+            const dd = String(date.getDate()).padStart(2, '0');
+            const mm = String(date.getMonth() + 1).padStart(2, '0');
+            const yyyy = date.getFullYear();
+            return {
+                dayName: day,
+                formatted: `${dd}-${mm}-${yyyy}`
+            };
+        }
+
+        function renderTasks() {
+            const list = document.getElementById("taskList");
+            if (!list) return;
+            
+            list.innerHTML = "";
+
+            tasks.forEach((task, index) => {
+                const { dayName, formatted } = task.date
+                    ? getFormattedDate(task.date)
+                    : { dayName: "No day", formatted: "No date" };
+                const displayTime = task.time || "No time";
+
+                const li = document.createElement("li");
+                li.innerHTML = `
+                    <span>
+                        <strong>${task.text}</strong><br/>
+                        📅 ${dayName}, ${formatted} ⏰ ${displayTime}
+                    </span>
+                    <button class="done" onclick="removeTask(${index})" style="padding: 5px 10px; background: #4caf50; color: white; border: none; border-radius: 4px; cursor: pointer;">✔</button>
+                `;
+                list.appendChild(li);
+            });
+
+            setTimeout(() => {
+                const container = document.getElementById("taskListContainer");
+                if (container) {
+                    container.scrollTop = container.scrollHeight;
+                }
+            }, 100);
+        }
+
+        function addTask() {
+            const text = document.getElementById("taskInput").value.trim();
+            const date = document.getElementById("reminderDate").value;
+            const time = document.getElementById("reminderTime").value;
+
+            if (!text) return alert("Please enter a task");
+
+            tasks.push({ text, date, time, alerted: false });
+            localStorage.setItem("vcTasks", JSON.stringify(tasks));
+
+            document.getElementById("taskInput").value = "";
+            document.getElementById("reminderDate").value = "";
+            document.getElementById("reminderTime").value = "";
+
+            renderTasks();
+
+            setTimeout(() => {
+                const container = document.getElementById("taskListContainer");
+                if (container) {
+                    container.scrollTop = container.scrollHeight;
+                }
+            }, 100);
+        }
+
+        function removeTask(index) {
+            tasks.splice(index, 1);
+            localStorage.setItem("vcTasks", JSON.stringify(tasks));
+            renderTasks();
+        }
+
+        function checkReminders() {
+            const now = new Date();
+            const today = now.toISOString().split("T")[0];
+            const time = now.toTimeString().slice(0, 5);
+
+            tasks.forEach((task) => {
+                if (
+                    task.date === today &&
+                    task.time === time &&
+                    !task.alerted
+                ) {
+                    alert("Reminder: " + task.text);
+                    task.alerted = true;
+                }
+            });
+
+            localStorage.setItem("vcTasks", JSON.stringify(tasks));
+        }
+
+        // 📝 NOTES SYSTEM
+        let notes = JSON.parse(localStorage.getItem("vinayaka-notes")) || [];
+
+        function addNote() {
+            const title = document.getElementById("noteTitle").value.trim();
+            const content = document.getElementById("noteContent").value.trim();
+            const priority = document.getElementById("notePriority").value;
+
+            if (!title || !content) {
+                alert("Please fill in both title and content!");
+                return;
+            }
+
+            const note = {
+                id: Date.now(),
+                title: title,
+                content: content,
+                priority: priority,
+                date: new Date().toLocaleDateString(),
+                time: new Date().toLocaleTimeString()
+            };
+
+            notes.unshift(note); // Add to beginning
+            localStorage.setItem("vinayaka-notes", JSON.stringify(notes));
+            
+            // Clear inputs
+            document.getElementById("noteTitle").value = "";
+            document.getElementById("noteContent").value = "";
+            document.getElementById("notePriority").value = "normal";
+            
+            renderNotes();
+            alert("✅ Note added successfully!");
+        }
+
+        function renderNotes() {
+            const container = document.getElementById("notes-container");
+            
+            if (notes.length === 0) {
+                container.innerHTML = `
+                    <div style="text-align: center; color: #666; padding: 2rem;">
+                        📝 No notes available yet. Check back later for updates!
+                    </div>
+                `;
+                return;
+            }
+
+            let notesHTML = "";
+            notes.forEach(note => {
+                const priorityColors = {
+                    normal: { bg: "#f0f9ff", border: "#0ea5e9", icon: "📋" },
+                    important: { bg: "#fef3c7", border: "#f59e0b", icon: "⚠️" },
+                    urgent: { bg: "#fee2e2", border: "#ef4444", icon: "🚨" }
+                };
+                
+                const colors = priorityColors[note.priority];
+                
+                notesHTML += `
+                    <div style="background: ${colors.bg}; border: 2px solid ${colors.border}; border-radius: 10px; padding: 1.5rem; margin-bottom: 1rem; position: relative;">
+                        <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 1rem;">
+                            <h4 style="color: #e65100; margin: 0; font-size: 1.1rem;">${colors.icon} ${note.title}</h4>
+                            <div style="text-align: right; font-size: 0.8rem; color: #666;">
+                                📅 ${note.date}<br>⏰ ${note.time}
+                            </div>
+                        </div>
+                        <p style="color: #333; margin: 0; line-height: 1.5;">${note.content}</p>
+                        ${localStorage.getItem("isAdmin") === "true" ? `
+                            <button onclick="deleteNote(${note.id})" style="position: absolute; top: 10px; right: 10px; background: #ef4444; color: white; border: none; border-radius: 50%; width: 25px; height: 25px; cursor: pointer; font-size: 0.8rem;">×</button>
+                        ` : ''}
+                    </div>
+                `;
+            });
+            
+            container.innerHTML = notesHTML;
+        }
+
+        function deleteNote(noteId) {
+            if (confirm("Are you sure you want to delete this note?")) {
+                notes = notes.filter(note => note.id !== noteId);
+                localStorage.setItem("vinayaka-notes", JSON.stringify(notes));
+                renderNotes();
+            }
+        }
+
+        // 📊 ATTENDANCE HISTORY SYSTEM
+        function loadAttendanceHistory() {
+            const container = document.getElementById("history-container");
+            const allKeys = Object.keys(localStorage).filter(key => key.startsWith("attendance-"));
+            
+            if (allKeys.length === 0) {
+                container.innerHTML = `
+                    <div style="text-align: center; color: #666; padding: 2rem;">
+                        📊 No attendance records found yet.
+                    </div>
+                `;
+                return;
+            }
+
+            // Sort dates in descending order (newest first)
+            allKeys.sort((a, b) => {
+                const dateA = a.replace("attendance-", "");
+                const dateB = b.replace("attendance-", "");
+                return new Date(dateB) - new Date(dateA);
+            });
+
+            let historyHTML = "";
+            
+            allKeys.forEach(key => {
+                const date = key.replace("attendance-", "");
+                const data = JSON.parse(localStorage.getItem(key)) || {};
+                const attendedCount = Object.values(data).filter(status => status === "attended").length;
+                const absentCount = Object.values(data).filter(status => status === "absent").length;
+                const totalMembers = 8;
+                const notMarkedCount = totalMembers - attendedCount - absentCount;
+                
+                const formattedDate = new Date(date).toLocaleDateString('en-US', { 
+                    weekday: 'long', 
+                    year: 'numeric', 
+                    month: 'long', 
+                    day: 'numeric' 
+                });
+
+                historyHTML += `
+                    <div style="background: white; border: 2px solid #ff8f00; border-radius: 10px; padding: 1.5rem; margin-bottom: 1rem;">
+                        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+                            <h4 style="color: #e65100; margin: 0;">📅 ${formattedDate}</h4>
+                            <div style="display: flex; gap: 15px; font-size: 0.9rem;">
+                                <span style="color: #22c55e;">✅ ${attendedCount}</span>
+                                <span style="color: #ef4444;">❌ ${absentCount}</span>
+                                <span style="color: #f59e0b;">⏳ ${notMarkedCount}</span>
+                            </div>
+                        </div>
+                        
+                        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px;">
+                `;
+                
+                // Show individual member status
+                const members = [
+                    "Kusampudi Eeswar Uday", "Sagi Kumar Varma", "Samanthapudi Akhil Varma", 
+                    "Uppalapati Pawan (Pandu)", "Samanthapudi Ajay Varma", "Nanda Kishore", 
+                    "Tharun", "Mahaveer Singh"
+                ];
+                
+                members.forEach(member => {
+                    const status = data[member];
+                    let statusDisplay = "⏳ Not Marked";
+                    let statusColor = "#f59e0b";
+                    
+                    if (status === "attended") {
+                        statusDisplay = "✅ Attended";
+                        statusColor = "#22c55e";
+                    } else if (status === "absent") {
+                        statusDisplay = "❌ Absent";
+                        statusColor = "#ef4444";
+                    }
+                    
+                    historyHTML += `
+                        <div style="background: #f9f9f9; padding: 8px; border-radius: 6px; font-size: 0.85rem;">
+                            <div style="font-weight: bold; color: #333;">${member}</div>
+                            <div style="color: ${statusColor};">${statusDisplay}</div>
+                        </div>
+                    `;
+                });
+                
+                historyHTML += `
+                        </div>
+                    </div>
+                `;
+            });
+            
+            container.innerHTML = historyHTML;
+        }
+
+        // Ganesha Chatbot
+        const ganeshaAnswers = {
+            "hii": "Hii mithrama ela vunnavvu",
+            "hello":"Hello my child how are you",
+            "who is ganesha": "🐘 I am Lord Ganesha — remover of obstacles and lover of modaks!",
+            "what is vinayaka chavithi": "Vinayaka Chavithi is my birthday celebration 🎉! Devotees perform pooja, offer sweets, and seek blessings.",
+            "why moon shouldn't be seen": "🐘 I slipped off my mouse once and the moon laughed! I cursed it — those who see it on Chavithi may be blamed falsely. 🌙❌",
+            "what is nimajjanam": "Nimajjanam is the farewell immersion of my idol in water. But don't worry, I'll be back next year! 🐘💧",
+            "what is prasadam": "Prasadam is a sacred offering of sweets and blessings — especially laddus and modaks! 🍥",
+            "favorite sweet": "Modak! No contest. 🍥",
+            "favorite flower": "Red Hibiscus and Durva grass 🌺🌿 are my favorites!",
+            "vahanam":"🐭 My divine vahana is a little mouse — wise and loyal!",
+            "vehicle": "🐭 My divine vahana is a little mouse — wise and loyal!",
+            "brother": "My brother is Lord Kartikeya, also known as Skanda or Murugan. 🛡️",
+            "why break coconut": "Breaking coconut symbolizes cracking ego to reveal purity inside 🥥."
+        };
+
+        const quizQuestionsBank = [
+  { q: "What is Lord Ganesha's vehicle?", options: ["Peacock", "Mouse", "Elephant"], answer: "Mouse" },
+  { q: "Which sweet is most loved by Ganesha?", options: ["Modak", "Laddu", "Jalebi"], answer: "Modak" },
+  { q: "Why don't we see the moon on Chavithi?", options: ["Good luck", "To avoid false blame", "It's cloudy"], answer: "To avoid false blame" },
+  { q: "Who is Ganesha's father?", options: ["Vishnu", "Shiva", "Brahma"], answer: "Shiva" },
+  { q: "What is Ganesha's favorite flower?", options: ["Lotus", "Hibiscus", "Rose"], answer: "Hibiscus" },
+  { q: "Which god created Ganesha?", options: ["Parvati", "Lakshmi", "Saraswati"], answer: "Parvati" },
+  { q: "What does Ganesha symbolize?", options: ["Anger", "Wisdom", "Fear"], answer: "Wisdom" },
+  { q: "Which color is associated with Ganesha?", options: ["Red", "Blue", "Green"], answer: "Red" },
+  { q: "Which is not a name of Ganesha?", options: ["Ganapati", "Vighnesh", "Rudra"], answer: "Rudra" },
+  { q: "How many heads does Ganesha have?", options: ["1", "2", "4"], answer: "1" },
+  { q: "Lord Ganesha is widely revered as the remover of what?", options: ["Illusions", "Obstacles", "Doubts", "Fears"], answer: "Obstacles" },
+  { q: "What does Lord Ganesha hold in one of his upper arms, symbolizing the removal of obstacles?", options: ["A Mace", "A Trident", "An Axe", "A Lotus"], answer: "An Axe" },
+  { q: "What is the significance of Lord Ganesha's large ears?", options: ["To hear gossip", "To show his age", "To listen more and speak less", "To appear more intimidating"], answer: "To listen more and speak less" },
+  { q: "Who is considered the mother of Lord Ganesha?", options: ["Goddess Lakshmi", "Goddess Saraswati", "Goddess Parvati", "Goddess Durga"], answer: "Goddess Parvati" },
+  { q: "Why is Ganesh Chaturthi celebrated?", options: ["Spring festival", "Ganesha's birthday", "Harvest festival", "War victory"], answer: "Ganesha's birthday" },
+  { q: "What does the name 'Ganapati' mean?", options: ["Lord of Wisdom", "Lord of the Ganas", "Lord of Fortune", "Lord of Strength"], answer: "Lord of the Ganas" },
+  { q: "What does Ganesha's broken tusk symbolize?", options: ["Past injury", "Sacrifice", "Incomplete form", "Fierceness"], answer: "Sacrifice" },
+  { q: "What is the significance of the direction of Ganesha's trunk?", options: ["Represents mood", "Signifies energy & rituals", "Indicates age", "No meaning"], answer: "Signifies energy & rituals" },
+  { q: "What does the mantra 'Om Gam Ganapataye Namaha' signify?", options: ["Seek knowledge", "Seek blessings", "Remove enemies", "Praise strength"], answer: "Seek blessings" },
+  { q: "What does Ganesha's round belly convey?", options: ["Enjoys eating", "Wealthy", "Digest everything in life", "Pregnant with knowledge"], answer: "Digest everything in life" },
+  { q: "What does Ganesha hold in his lower right hand?", options: ["Book", "Pen", "Lotus", "Rosary (Japa Mala)"], answer: "Rosary (Japa Mala)" },
+  { q: "What is the name of the serpent Ganesha wears?", options: ["Naga", "Vasuki", "Shesha", "Ananta"], answer: "Vasuki" },
+  { q: "What does Modak represent?", options: ["Wealth", "Sweetness", "Spiritual joy", "Well-being"], answer: "Spiritual joy" },
+  { q: "Another name of Ganesha meaning 'Lord of Wisdom'?", options: ["Vinayaka", "Siddhivinayaka", "Buddhipriya", "Lambodara"], answer: "Buddhipriya" },
+  { q: "How did Ganesha win the race against Kartikeya?", options: ["Flew fast", "Tricked him", "Circled parents", "Used magic"], answer: "Circled parents" },
+  { q: "What direction is best to place a Ganesha idol?", options: ["South", "West", "North or East", "Any"], answer: "North or East" },
+  { q: "What does the ankusha (goad) symbolize?", options: ["Control vehicle", "Control mind/ego", "Ward evil", "Dig treasure"], answer: "Control mind/ego" },
+  { q: "What is Ganesha's relation to Goddess Lakshmi?", options: ["Brother", "Husband", "Son", "Worshipped with for prosperity"], answer: "Worshipped with for prosperity" },
+  { q: "What is the importance of Durva grass?", options: ["His favorite food", "Fertility", "Medicinal", "Easily found"], answer: "Fertility" },
+  { q: "What is Ganesha's consort (wife) in some traditions?", options: ["Sita", "Radha", "Riddhi and Siddhi", "Savitri"], answer: "Riddhi and Siddhi" },
+  { q: "Which ancient temples of Ganesha are located in Maharashtra?", options: ["Jyotirlinga temples", "Ashtavinayaka temples", "Char Dham temples", "Shakti Peeth temples"], answer: "Ashtavinayaka temples" },
+  { q: "Which Hindu scripture narrates the story of Ganesha writing the Mahabharata?", options: ["Ramayana", "Bhagavad Gita", "Mahabharata", "Upanishads"], answer: "Mahabharata" },
+{ q: "What does Ganesha's large head symbolize?", options: ["Arrogance", "Thinking big", "Being stubborn", "Ego"], answer: "Thinking big" },
+{ q: "What does Ganesha's single tusk signify?", options: ["Unique appearance", "Retaining good, discarding evil", "Battle wound", "Incomplete nature"], answer: "Retaining good, discarding evil" },
+{ q: "What is the name of Ganesha's elder brother?", options: ["Vishnu", "Brahma", "Kartikeya", "Shiva"], answer: "Kartikeya" },
+{ q: "What does Ganesha's human body and elephant head signify?", options: ["Hybrid form", "Unity of micro and macrocosm", "Divine mutation", "Wise man + strong animal"], answer: "Unity of micro and macrocosm" },
+{ q: "What is the traditional attire of Lord Ganesha?", options: ["Sari", "Dhoti", "Turban", "Robe"], answer: "Dhoti" },
+{ q: "What does Ganesha's crown symbolize?", options: ["Royalty", "Wealth", "Authority", "Status"], answer: "Authority" },
+{ q: "What does Ganesha's large forehead signify?", options: ["Big tilak", "Deep wisdom", "Strong memory", "Old age"], answer: "Deep wisdom" },
+{ q: "Which rishi narrated Mahabharata to Ganesha?", options: ["Valmiki", "Vyasa", "Vishwamitra", "Bhrigu"], answer: "Vyasa" },
+{ q: "What is the importance of worshipping Ganesha first?", options: ["Tradition only", "To remove obstacles", "Respect to Parvati", "His seniority"], answer: "To remove obstacles" },
+{ q: "What does the pasha (noose) in Ganesha's hand symbolize?", options: ["Catching enemies", "Binding devotees", "Spiritual guidance", "Tie up problems"], answer: "Spiritual guidance" },
+{ q: "What does 'Shri Ganeshaya Namah' mean?", options: ["I praise Ganesha", "Salutations to Ganesha", "Ganesha is victorious", "Ganesha protects me"], answer: "Salutations to Ganesha" },
+{ q: "What direction should Ganesha's idol face in home temple?", options: ["South", "West", "North or East", "Any direction"], answer: "North or East" },
+{ q: "What is the common color for Ganesha's attire?", options: ["Red", "Blue", "Yellow", "White"], answer: "Red" },
+{ q: "What is the meaning of 'Vighnaharta'?", options: ["Creator of obstacles", "Remover of obstacles", "Observer of obstacles", "Master of obstacles"], answer: "Remover of obstacles" },
+{ q: "What does Ganesha's upright posture with one leg folded represent?", options: ["Readiness", "Relaxation", "Overcoming obstacles", "Meditation"], answer: "Overcoming obstacles" },
+{ q: "What is the symbolism of Ganesha's mouse vahana?", options: ["Humility", "Destruction", "Stealth", "Overcoming small obstacles"], answer: "Overcoming small obstacles" },
+{ q: "Which chakra is Ganesha associated with?", options: ["Heart", "Crown", "Muladhara", "Throat"], answer: "Muladhara" },
+{ q: "What is the traditional way to end Ganesha pooja?", options: ["Chanting", "Modak offering", "Aarti", "Reading story"], answer: "Aarti" }
+
+];
+
+
+        let isQuizActive = false;
+        let quizIndex = 0;
+        let score = 0;
+        let quizQuestions = [];
+        let leaderboard = JSON.parse(localStorage.getItem("ganeshaLeaderboard")) || [];
+
+        function askGanesha() {
+            const input = document.getElementById("userInput");
+            const question = input.value.trim().toLowerCase();
+            const chat = document.getElementById("chatbox");
+            input.value = "";
+
+            if (!question) return;
+
+            chat.innerHTML += `<div><strong>🙋 You:</strong> ${question}</div>`;
+
+            if (isQuizActive) {
+                chat.innerHTML += `<div><strong>🐘 Vinayaka:</strong> Please select an option below!</div>`;
+                chat.scrollTop = chat.scrollHeight;
+                return;
+            }
+
+            if (question.includes("quiz")) {
+                isQuizActive = true;
+                quizIndex = 0;
+                score = 0;
+                quizQuestions = getRandomQuestions(quizQuestionsBank, 5);
+                chat.innerHTML += `<div><strong>🐘 Vinayaka:</strong> Let's start the Ganesha quiz! 🎉</div>`;
+                loadQuizQuestion();
+                return;
+            }
+
+            let matched = false;
+            for (let key in ganeshaAnswers) {
+                if (question.includes(key)) {
+                    chat.innerHTML += `<div><strong>🐘 Vinayaka:</strong> ${ganeshaAnswers[key]}</div>`;
+                    matched = true;
+                    break;
+                }
+            }
+
+            if (!matched) {
+                chat.innerHTML += `<div><strong>🐘 Vinayaka:</strong> I'm not sure about that, my child. Try asking about Chavithi, modaks, or start a quiz! 🙏</div>`;
+            }
+
+            chat.scrollTop = chat.scrollHeight;
+        }
+
+        function getRandomQuestions(pool, count) {
+            const shuffled = [...pool].sort(() => 0.5 - Math.random());
+            return shuffled.slice(0, count);
+        }
+
+        function loadQuizQuestion() {
+            const chat = document.getElementById("chatbox");
+            if (quizIndex >= quizQuestions.length) {
+                isQuizActive = false;
+                const name = prompt("Enter your name for the leaderboard:") || "Unknown Devotee";
+                leaderboard.push({ name, score });
+                leaderboard.sort((a, b) => b.score - a.score);
+                localStorage.setItem("ganeshaLeaderboard", JSON.stringify(leaderboard));
+                chat.innerHTML += `<div><strong>🐘 Vinayaka:</strong> Quiz over! You scored ${score}/${quizQuestions.length}! 🎯</div>`;
+                displayLeaderboard();
+                return;
+            }
+
+            const q = quizQuestions[quizIndex];
+            let optionsHTML = q.options.map(opt => `<button onclick="selectAnswer('${opt}')" style="margin: 2px; padding: 5px 10px; background: #ff8f00; color: white; border: none; border-radius: 4px; cursor: pointer;">${opt}</button>`).join(" ");
+            chat.innerHTML += `<div><strong>🐘 Quiz Q${quizIndex + 1}:</strong> ${q.q}<br>${optionsHTML}</div>`;
+            chat.scrollTop = chat.scrollHeight;
+        }
+
+        function selectAnswer(selected) {
+            const correct = quizQuestions[quizIndex].answer;
+            const chat = document.getElementById("chatbox");
+            if (selected === correct) {
+                score++;
+                chat.innerHTML += `<div><strong>🐘 Vinayaka:</strong> Correct! ✅</div>`;
+            } else {
+                chat.innerHTML += `<div><strong>🐘 Vinayaka:</strong> Oops! The correct answer is ${correct} ❌</div>`;
+            }
+            quizIndex++;
+            loadQuizQuestion();
+        }
+
+        function displayLeaderboard() {
+            const chat = document.getElementById("chatbox");
+            let list = leaderboard.slice(0, 5).map((p, i) => `${i + 1}. ${p.name} – ${p.score}`).join("<br>");
+            chat.innerHTML += `<div><strong>🏆 Leaderboard:</strong><br>${list}</div>`;
+            chat.scrollTop = chat.scrollHeight;
+        }
+
+        // Event Listeners Setup
+        function setupEventListeners() {
+            // Pooja booking form
+            const poojaForm = document.getElementById('poojaBookingForm');
+            if (poojaForm) {
+                poojaForm.addEventListener('submit', handlePoojaBookingSubmit);
+            }
+
+            // Countdown timer
+            setInterval(updateCountdown, 1000);
+            
+            // Reminder checker
+            setInterval(checkReminders, 30000);
+            
+            // Enter key for chatbox
+            const userInput = document.getElementById("userInput");
+            if (userInput) {
+                userInput.addEventListener("keydown", function (e) {
+                    if (e.key === "Enter") {
+                        askGanesha();
+                    }
+                });
+            }
+            
+            // Form submission handler
+            const sponsorForm = document.getElementById('sponsorForm');
+            if (sponsorForm) {
+                sponsorForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    
+                    const name = document.getElementById('name').value;
+                    const phone = document.getElementById('phone').value;
+                    const email = document.getElementById('email').value;
+                    const message = document.getElementById('message').value;
+                    
+                    const whatsappMessage = `Hello! I'm interested in sponsoring/volunteering for Vinayaka Chavithi 2025.
+                    
+                    Name: ${name}
+                    Phone: ${phone}
+                    Email: ${email}
+                    Message: ${message}`;
+                    
+                    const whatsappUrl = `https://wa.me/919848863038?text=${encodeURIComponent(whatsappMessage)}`;
+                    
+                    window.open(whatsappUrl, '_blank');
+                    this.reset();
+                    alert('Thank you for your interest! You will be redirected to WhatsApp to send your message to Eeswar Uday.');
+                });
+            }
+            
+            // Smooth scrolling for navigation links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                });
+            });
+        }
+
+        // Initialize on page load
+        window.addEventListener("DOMContentLoaded", () => {
+            renderNotes(); // Load notes for all users
+            
+            if (localStorage.getItem("isAdmin") === "true") {
+                document.getElementById("attendance-section").style.display = "block";
+                document.getElementById("admin-note-input").style.display = "block";
+                enableAttendanceButtons();
+                loadAttendance();
+
+                const status = document.getElementById("adminStatus");
+                if (status) {
+                    status.textContent = "✅ Admin Logged In";
+                    status.style.color = "green";
+                }
+            }
+            
+            // Load other existing functions
+            renderTasks();
+            checkReminders();
+            triggerFlowerIfToday();
+        });
+    </script>
+    
+</body>
+</html>
