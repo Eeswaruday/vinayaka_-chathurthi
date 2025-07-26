@@ -1493,6 +1493,7 @@
                 <option value="#attendance-management">Attendance</option>
                 <option value="#attendance-history">📊 Attendance History</option>
                 <option value="#chatbox">Chat with Ganesha</option>
+                <option value="#meeting-list">list</option>
             </select>
         </div>
     </header>
@@ -2115,6 +2116,48 @@
                     </div>
                 </div>
             </section>
+<!-- 📋 Meeting List Section -->
+<section id="meeting-list" style="max-width: 700px; margin: 40px auto; padding: 20px; background: #fff3e0; border: 2px solid #ffcc80; border-radius: 12px;">
+  <h2 style="text-align: center; color: #e65100;">📋 Festival Meeting Schedule</h2>
+  <p style="text-align: center; color: #6d4c41;">All members and volunteers are requested to attend the following meetings</p>
+
+  <table style="width: 100%; border-collapse: collapse; margin-top: 20px;">
+    <thead style="background-color: #ffe0b2;">
+      <tr style="color: #5d4037;">
+        <th style="padding: 10px; border: 1px solid #ffcc80;">Date</th>
+        <th style="padding: 10px; border: 1px solid #ffcc80;">Time</th>
+        <th style="padding: 10px; border: 1px solid #ffcc80;">Agenda</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="padding: 10px; border: 1px solid #ffecb3;">July 27, 2025</td>
+        <td style="padding: 10px; border: 1px solid #ffecb3;">9:30 AM</td>
+        <td style="padding: 10px; border: 1px solid #ffecb3;">going to see the vinayaka Idol</td>
+      </tr>
+      <tr>
+        <td style="padding: 10px; border: 1px solid #ffecb3;">August 24, 2025</td>
+        <td style="padding: 10px; border: 1px solid #ffecb3;">10:00 AM</td>
+        <td style="padding: 10px; border: 1px solid #ffecb3;">pandiri preparation</td>
+      </tr>
+      <tr>
+        <td style="padding: 10px; border: 1px solid #ffecb3;">August 26, 2025</td>
+        <td style="padding: 10px; border: 1px solid #ffecb3;">7:30 PM</td>
+        <td style="padding: 10px; border: 1px solid #ffecb3;">Recieve the vinayaka Idol from the shop</td>
+      </tr>
+      <tr>
+        <td style="padding: 10px; border: 1px solid #ffecb3;">August 27, 2025</td>
+        <td style="padding: 10px; border: 1px solid #ffecb3;">7:30 AM</td>
+        <td style="padding: 10px; border: 1px solid #ffecb3;">Recieve the vinayaka Idol from the shop</td>
+      </tr>
+      <tr>
+        <td style="padding: 10px; border: 1px solid #ffecb3;">August 27, 2025</td>
+        <td style="padding: 10px; border: 1px solid #ffecb3;">10:30 AM</td>
+        <td style="padding: 10px; border: 1px solid #ffecb3;">Final Review & Setup Instructions</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
 
             <!-- Sponsors Section -->
             <section id="sponsors" style="padding: 2rem;">
@@ -2523,7 +2566,7 @@ May Lord Ganesha bless you! 🐘`);
         function handleAdminLogin() {
             if (!isAdmin) {
                 const password = prompt('🔐 Enter Admin Password:');
-                if (password === '9999') {
+                if (password === '1144') {
                     isAdmin = true;
                     localStorage.setItem(adminKey, 'true');
                     showAttendanceSection();
@@ -2722,7 +2765,7 @@ May Lord Ganesha bless you! 🐘`);
 
         function togglePaid(cell, key) {
             const password = prompt("Enter admin password to change status:");
-            if (password !== "9999") {
+            if (password !== "1144") {
                 alert("Incorrect password. You are not allowed to change this.");
                 return;
             }
